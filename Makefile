@@ -3,14 +3,11 @@ HOMEDIR = $(shell pwd)
 test:
 	node tests/basictests.js
 
+run:
+	node post-tweet-chain.js
+
 start:
 	node responder.js
-
-stop-docker-machine:
-	docker-machine stop dev
-
-start-docker-machine:
-	docker-machine start dev
 
 create-docker-machine:
 	docker-machine create --driver virtualbox dev
@@ -32,8 +29,8 @@ push-docker-image: build-docker-image
 
 run-docker-image:
 	docker run -v $(HOMEDIR)/config:/usr/src/app/config \
-    -v $(HOMEDIR)/data:/usr/src/app/data \
-		jkang/if-you-are-reading-this
+		jkang/if-you-are-reading-this \
+		make run-contingencybot
 
 pushall: push-docker-image
 	git push origin master

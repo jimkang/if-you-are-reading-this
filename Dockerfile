@@ -8,4 +8,4 @@ RUN npm install
 # Add source files
 ADD . .
 
-CMD make start-if-you-are-reading-this
+# CMD make start-if-you-are-reading-this

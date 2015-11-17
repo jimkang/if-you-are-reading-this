@@ -6,7 +6,7 @@ var probable = require('probable');
 var tracery = require('tracery-grammar');
 var jsonfile = require('jsonfile');
 
-var grammarSpec = jsonfile.readFileSync(__dirname + '/data/cbdq.json');
+var grammarSpec = jsonfile.readFileSync(__dirname + '/cbdq.json');
 var processedGrammar = tracery.createGrammar(grammarSpec);
 
 var statementParts = [
