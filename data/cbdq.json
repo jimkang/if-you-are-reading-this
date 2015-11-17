@@ -4,14 +4,35 @@
   ],
 
   "condition": [
-    "#singularsubject# has #action#"
+    "#singularsubject# has #action#",
+    "The #process# has #completed#"
   ],
 
   "singularsubject": [
     "the self-destruct sequence",
     "the Large Hadron Collider",
     "Hurricane Dirk",
-    "a raging wildfire"
+    "a raging wildfire",
+    "the war",
+    "nuclear war",
+    "the apocalypse",
+    "a black hole",
+    "a singularity",
+    "thermonuclear conflict",
+    "experimental fusion reactor",
+    "the Emergency Broadcast System",
+    "Helvetica Syndrome"
+  ],
+
+  "process": [
+    "missile launch",
+    "launch sequence",
+    "ignition sequence",
+    "system shutdown",
+    "failsafe",
+    "countdown",
+    "self-destruct",
+    "safety protocol"
   ],
 
   "action": [
@@ -21,6 +42,19 @@
     "eaten through the earth's core",
     "exploded",
     "burned most of #object#"
+  ],
+
+  "completed": [
+    "completed",
+    "reached the point of no return",
+    "failed",
+    "begun",
+    "crossed the event horizon",
+    "terminated",
+    "effected",
+    "the facility is compromised",
+    "the sun has gone out",
+    "time has run out"
   ],
 
   "object": [
@@ -38,7 +72,11 @@
     "Incineration units",
     "100-foot waves",
     "Accountants",
-    "The Number One Dance Team"
+    "The Number One Dance Team",
+    "The AI",
+    "Bots",
+    "Draculas",
+    "Our New Insect Overlords"
   ],
 
   "paction": [
@@ -46,7 +84,10 @@
     "engulf unprotected plains",
     "rise to complete dominance",
     "release neurotoxins",
-    "begin the Finalist Round"
+    "begin the Finalist Round",
+    "initialise retaliation protocols",
+    "force us to toil in the sugar mines",
+    "begin harvesting"
   ],
 
   "direction": [
