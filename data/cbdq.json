@@ -62,7 +62,10 @@
   "object": [
     "the earth",
     "observable space-time",
-    "Illinois"
+    "Illinois",
+    "the milky way",
+    "the solar system",
+    "everything inside Jupiter's orbit"
   ],
 
   "prediction": [
@@ -89,7 +92,9 @@
     "begin the Finalist Round",
     "initialise retaliation protocols",
     "force us to toil in the sugar mines",
-    "begin harvesting"
+    "begin harvesting",
+    "begin the ritual",
+    "start the summoning"
   ],
 
   "direction": [
@@ -104,7 +109,8 @@
     "Hide",
     "Obey",
     "Eat",
-    "Smell"
+    "Smell",
+    "Clasp"
   ],
 
   "bodypart": [
@@ -113,7 +119,8 @@
     "eyes",
     "groin",
     "buttocks",
-    "swimsuit area"
+    "swimsuit area",
+    "skull"
   ],
   "spatialpreposition": [
     "in",
@@ -127,7 +134,9 @@
     "a nearby ditch",
     "a bridge",
     "your basement",
-    "a 7-Eleven"
+    "a 7-Eleven",
+    "the bunker",
+    "under the stairs"
   ],
 
   "passiveinstructiveverb": [
@@ -143,7 +152,10 @@
     "for further instructions",
     "in fear",
     "for mercy",
-    "like a real #persontype#"
+    "like a real #persontype#",
+    "as fast as you can",
+    "without making a sound",
+    "with your eyes tightly shut"
   ],
   "persontype": [
     "American",
