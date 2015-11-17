@@ -1,0 +1,112 @@
+{
+  "origin": [
+    "If you are reading this, #condition#. #prediction#. #direction#."
+  ],
+
+  "condition": [
+    "#singularsubject# has #action#"
+  ],
+
+  "singularsubject": [
+    "the self-destruct sequence",
+    "the Large Hadron Collider",
+    "Hurricane Dirk",
+    "a raging wildfire"
+  ],
+
+  "action": [
+    "begun",
+    "destroyed #object#",
+    "overtaken Bob Newhart as the world's most beloved celebrity",
+    "eaten through the earth's core",
+    "exploded",
+    "burned most of #object#"
+  ],
+
+  "object": [
+    "the earth",
+    "observable space-time",
+    "Illinois"
+  ],
+
+  "prediction": [
+    "#psubject# will now #paction#"
+  ],
+
+  "psubject": [
+    "Wolves",
+    "Incineration units",
+    "100-foot waves",
+    "Accountants",
+    "The Number One Dance Team"
+  ],
+
+  "paction": [
+    "eat all stragglers",
+    "engulf unprotected plains",
+    "rise to complete dominance",
+    "release neurotoxins",
+    "begin the Finalist Round"
+  ],
+
+  "direction": [
+    "#instructiveverb# your #bodypart#",
+    "#instructiveverb# #spatialpreposition# #place#",
+    "#passiveinstructiveverb# #passiveinstructionobject#"
+  ],
+
+  "instructiveverb": [
+    "Shelter",
+    "Duck",
+    "Hide",
+    "Obey",
+    "Eat",
+    "Smell"
+  ],
+
+  "bodypart": [
+    "ears",
+    "head",
+    "eyes",
+    "groin",
+    "buttocks",
+    "swimsuit area"
+  ],
+  "spatialpreposition": [
+    "in",
+    "under",
+    "over",
+    "near",
+    "inside",
+    "adjacent to"
+  ],
+  "place": [
+    "a nearby ditch",
+    "a bridge",
+    "your basement",
+    "a 7-Eleven"
+  ],
+
+  "passiveinstructiveverb": [
+    "Wait",
+    "Listen",
+    "Pray",
+    "Cower",
+    "Die",
+    "Sleep",
+    "Run"
+  ],
+  "passiveinstructionobject": [
+    "for further instructions",
+    "in fear",
+    "for mercy",
+    "like a real #persontype#"
+  ],
+  "persontype": [
+    "American",
+    "Englishperson",
+    "Bostonian",
+    "Twitter user",
+    "citizen"
+  ]
+}

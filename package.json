@@ -1,0 +1,34 @@
+{
+  "name": "if-you-are-reading-this",
+  "version": "1.0.0",
+  "description": "Pre-recorded messages for the future.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jimkang/if-you-are-reading-this.git"
+  },
+  "keywords": [],
+  "author": "Jim Kang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimkang/if-you-are-reading-this/issues"
+  },
+  "homepage": "https://github.com/jimkang/if-you-are-reading-this",
+  "devDependencies": {
+    "tape": "^3.0.3"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "basicset-chronicler": "^1.3.1",
+    "better-know-a-tweet": "^1.0.1",
+    "call-next-tick": "^1.1.2",
+    "emojisource": "^1.0.0",
+    "iscool": "^1.1.11",
+    "jsonfile": "^2.2.3",
+    "tracery-grammar": "jimkang/tracery",
+    "twit": "^1.1.20"
+  }
+}
