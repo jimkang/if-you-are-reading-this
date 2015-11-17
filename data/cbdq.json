@@ -24,6 +24,16 @@
     "Helvetica Syndrome"
   ],
 
+  "action": [
+    "begun",
+    "destroyed #object#",
+    "overtaken Bob Newhart as the world's most beloved celebrity",
+    "eaten through the earth's core",
+    "exploded",
+    "burned most of #object#",
+    "compromised the facility"
+  ],
+
   "process": [
     "missile launch",
     "launch sequence",
@@ -35,15 +45,6 @@
     "safety protocol"
   ],
 
-  "action": [
-    "begun",
-    "destroyed #object#",
-    "overtaken Bob Newhart as the world's most beloved celebrity",
-    "eaten through the earth's core",
-    "exploded",
-    "burned most of #object#"
-  ],
-
   "completed": [
     "completed",
     "reached the point of no return",
@@ -51,10 +52,11 @@
     "begun",
     "crossed the event horizon",
     "terminated",
-    "effected",
-    "the facility is compromised",
-    "the sun has gone out",
-    "time has run out"
+    "been effected",
+    "caused the sun to go out",
+    "timed out"
+    "activated"
+    "been initialised"
   ],
 
   "object": [
