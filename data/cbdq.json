@@ -34,7 +34,7 @@
     "compromised the facility",
     "escaped the ",
     "been released",
-    "has gone viral",
+    "gone viral",
     "breached containment",
     "breached the defences",
     "infiltrated the bunker"
@@ -66,7 +66,8 @@
     "been initialised",
     "been compromised",
     "encountered a critical error",
-    "been armed"
+    "been armed",
+    "crashed"
   ],
 
   "object": [
@@ -76,6 +77,10 @@
     "the milky way",
     "the solar system",
     "everything inside Jupiter's orbit"
+    "all your base",
+    "the government",
+    "all nearby Starbucks",
+    "a theater near you"
   ],
 
   "prediction": [
@@ -91,7 +96,16 @@
     "The AI",
     "Bots",
     "Draculas",
-    "Our New Insect Overlords"
+    "Our New Insect Overlords",
+    "99 Luftballons",
+    "Bees",
+    "Mecha-Godzilla",
+    "The Cardassians",
+    "The Kardashians",
+    "Cordyceps spores",
+    "Dark wizards",
+    "I, Garland,",
+    "Monsters"
   ],
 
   "paction": [
@@ -104,7 +118,8 @@
     "force us to toil in the sugar mines",
     "begin harvesting",
     "begin the ritual",
-    "start the summoning"
+    "start the summoning",
+    "report to headquarters"
   ],
 
   "direction": [
@@ -130,7 +145,9 @@
     "groin",
     "buttocks",
     "swimsuit area",
-    "skull"
+    "skull",
+    "epidermis",
+    "face"
   ],
   "spatialpreposition": [
     "in",
@@ -146,7 +163,8 @@
     "your basement",
     "a 7-Eleven",
     "the bunker",
-    "under the stairs"
+    "the stairs",
+    "your assigned shelter"
   ],
 
   "passiveinstructiveverb": [
@@ -165,13 +183,20 @@
     "like a real #persontype#",
     "as fast as you can",
     "without making a sound",
-    "with your eyes tightly shut"
+    "in place",
+    "until further notice",
+    "with your eyes tightly shut",
+    "while you still can"
   ],
   "persontype": [
     "American",
     "Englishperson",
     "Bostonian",
     "Twitter user",
-    "citizen"
+    "citizen",
+    "patriot",
+    "soldier",
+    "jerk",
+    "coward"
   ]
 }
