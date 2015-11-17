@@ -28,6 +28,7 @@
     "emojisource": "^1.0.0",
     "iscool": "^1.1.11",
     "jsonfile": "^2.2.3",
+    "probable": "^1.7.0",
     "tracery-grammar": "jimkang/tracery",
     "twit": "^1.1.20"
   }

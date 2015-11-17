@@ -1,11 +1,14 @@
 {
   "origin": [
-    "If you are reading this, #condition#. #prediction#. #direction#."
+    "If you are reading this, #condition#. #prediction#. #direction#.",
+    "If you are reading this, #condition#. #direction#.",
+    "If you are reading this, #condition#. #prediction#.",
+    "Attn: #condition#. #prediction#. #direction#."
   ],
 
   "condition": [
     "#singularsubject# has #action#",
-    "The #process# has #completed#"
+    "the #process# has #completed#"
   ],
 
   "singularsubject": [
@@ -76,7 +79,8 @@
     "The AI",
     "Bots",
     "Draculas",
-    "Our New Insect Overlords"
+    "Our New Insect Overlords",
+    "99 Luftballoons"
   ],
 
   "paction": [
