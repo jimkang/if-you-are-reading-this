@@ -25,7 +25,12 @@
     "experimental fusion reactor",
     "the Emergency Broadcast System",
     "Helvetica Syndrome",
-    "winter"
+    "winter",
+    "an unidentified object",
+    "the Joker",
+    "the free market",
+    "a chemical spill",
+    "an unknown contaminant"
   ],
 
   "action": [
@@ -41,7 +46,13 @@
     "gone viral",
     "breached containment",
     "breached the defences",
-    "infiltrated the bunker"
+    "infiltrated the bunker",
+    "reached critical mass",
+    "collapsed",
+    "escalated",
+    "opened the airlock",
+    "become self-aware",
+    "gone missing"
   ],
 
   "process": [
@@ -53,7 +64,9 @@
     "countdown",
     "self-destruct",
     "safety protocol",
-    "Windows Update"
+    "Windows Update",
+    "backup plan",
+    "emergency procedure"
   ],
 
   "completed": [
@@ -71,7 +84,13 @@
     "been compromised",
     "encountered a critical error",
     "been armed",
-    "crashed"
+    "crashed",
+    "gone offline",
+    "disappeared",
+    "been cancelled",
+    "shut down all communications",
+    "initiated",
+    "backfired"
   ],
 
   "object": [
@@ -84,7 +103,12 @@
     "all your base",
     "the government",
     "all nearby Starbucks",
-    "a theater near you"
+    "a theater near you",
+    "Canada",
+    "City Hall",
+    "the tri-county area",
+    "the water supply",
+    "the escape routes"
   ],
 
   "prediction": [
@@ -110,7 +134,19 @@
     "Dark wizards",
     "I, Garland,",
     "Monsters",
-    "The survivors"
+    "The survivors",
+    "Chaos",
+    "Clones",
+    "Drones",
+    "Unattended children",
+    "Fires",
+    "Dark clouds",
+    "Industrial waste",
+    "Bedbugs",
+    "Bears",
+    "Machines",
+    "Driverless cars",
+    "Extreme temperatures"
   ],
 
   "paction": [
@@ -124,7 +160,17 @@
     "begin harvesting",
     "begin the ritual",
     "start the summoning",
-    "report to headquarters"
+    "report to headquarters",
+    "show no mercy",
+    "obliterate the coastline",
+    "invade the city",
+    "spare no one",
+    "start the fire"
+    "rule the skies",
+    "demand total submission",
+    "assume control",
+    "determine your fate",
+    "join the party"
   ],
 
   "direction": [
@@ -152,7 +198,10 @@
     "swimsuit area",
     "skull",
     "epidermis",
-    "face"
+    "face",
+    "neck",
+    "back",
+    "extremities"
   ],
   "spatialpreposition": [
     "in",
