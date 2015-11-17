@@ -31,7 +31,13 @@
     "eaten through the earth's core",
     "exploded",
     "burned most of #object#",
-    "compromised the facility"
+    "compromised the facility",
+    "escaped the ",
+    "been released",
+    "has gone viral",
+    "breached containment",
+    "breached the defences",
+    "infiltrated the bunker"
   ],
 
   "process": [
@@ -42,7 +48,8 @@
     "failsafe",
     "countdown",
     "self-destruct",
-    "safety protocol"
+    "safety protocol",
+    "Windows Update"
   ],
 
   "completed": [
@@ -55,8 +62,11 @@
     "been effected",
     "caused the sun to go out",
     "timed out"
-    "activated"
-    "been initialised"
+    "been activated"
+    "been initialised",
+    "been compromised",
+    "encountered a critical error",
+    "been armed"
   ],
 
   "object": [
