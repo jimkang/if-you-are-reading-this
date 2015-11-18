@@ -32,7 +32,8 @@
     "a chemical spill",
     "an unknown contaminant",
     "the grey goo",
-    "a biocontainment"
+    "a biocontainment",
+    "the vortex"
   ],
 
   "action": [
@@ -62,7 +63,8 @@
     "the containment chamber",
     "containment",
     "the bunker",
-    "the defences"
+    "the defences",
+    "the shelter"
   ],
 
   "process": [
