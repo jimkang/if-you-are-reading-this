@@ -41,7 +41,7 @@
     "exploded",
     "burned most of #object#",
     "compromised the facility",
-    "escaped the ",
+    "escaped the",
     "been released",
     "gone viral",
     "breached containment",
@@ -184,19 +184,19 @@
   ],
 
   "direction": [
-    "#instructiveverb# your #bodypart#",
+    "#bodyverb# your #bodypart#",
     "#instructiveverb# #spatialpreposition# #place#",
-    "#passiveinstructiveverb# #passiveinstructionobject#"
+    "#passiveinstructiveverb# #passiveinstructionobject#",
+    "Do not attempt #restricted_citizen_action#"
   ],
 
-  "instructiveverb": [
-    "Shelter",
-    "Duck",
-    "Hide",
+  "bodyverb": [
     "Obey",
     "Eat",
     "Smell",
-    "Clasp"
+    "Clasp",
+    "Shelter",
+    "Hide"
   ],
 
   "bodypart": [
@@ -213,6 +213,19 @@
     "back",
     "extremities"
   ],
+
+  "instructiveverb": [
+    "Shelter",
+    "Duck",
+    "Hide",
+    "Obey",
+    "Eat",
+    "Smell",
+    "Lie",
+    "Tread water",
+    "Crouch"
+  ],
+
   "spatialpreposition": [
     "in",
     "under",
@@ -262,5 +275,21 @@
     "soldier",
     "jerk",
     "coward"
+  ],
+
+  "restricted_citizen_action": [
+    "to escape",
+    "to flee",
+    "copulation",
+    "to dance",
+    "to reason about the situation",
+    "to think",
+    "relatiation",
+    "to drink the water",
+    "U-turns",
+    "to moonwalk",
+    "to ignore us",
+    "to eat",
+    "casual enjoyment"
   ]
 }
