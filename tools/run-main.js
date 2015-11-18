@@ -1,7 +1,7 @@
 var tracery = require('tracery-grammar');
 var jsonfile = require('jsonfile');
 
-var grammarSpec = jsonfile.readFileSync(__dirname + '/../cbdq.json');
+var grammarSpec = jsonfile.readFileSync(__dirname + '/../data/cbdq.json');
 var processedGrammar = tracery.createGrammar(grammarSpec);
 
 var validTweetCount = 0;
