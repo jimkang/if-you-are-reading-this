@@ -164,7 +164,8 @@
     "busted",
     "triggered",
     "terminated",
-    "intercepted"
+    "intercepted",
+    "compromised"
   ],
   
   "personalobject": [
@@ -229,7 +230,8 @@
     "Nano-machines",
     "Xenomorphs",
     "Swarms of locusts",
-    "Trained experts"
+    "Trained experts",
+    "Someone else"
   ],
 
   "paction": [
@@ -266,7 +268,10 @@
     "in hell",
     "on the rock farm",
     "in their bowels",
-    "under their megachurch"
+    "under their megachurch",
+    "in the suburbs",
+    "in a 24-hour call center",
+    "underground"
   ],
   
   "possession": [
@@ -357,7 +362,8 @@
     "over",
     "near",
     "inside",
-    "adjacent to"
+    "adjacent to",
+    "by"
   ],
   "place": [
     "a nearby ditch",
@@ -475,7 +481,8 @@
    "gravitational",
    "terminal",
    "irreversible",
-   "brief"
+   "brief",
+   "mild"
   ],
   
   "damage": [
@@ -511,7 +518,9 @@
     "shrinkage",
     "madness",
     "disorientation",
-    "stuff"
+    "stuff",
+    "annoyance",
+    "boredom"
     ],
     
     "closing": [
