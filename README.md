@@ -1,5 +1,5 @@
 if-you-are-reading-this
-==================
+=======================
 
 Pre-recorded messages for the future.
 
@@ -8,7 +8,7 @@ Installation
 
 Clone this repo.
 
-Then, create a `config/config.js` file in the project root that contains [Twitter API keys](https://gist.github.com/jimkang/34d16247b40097d8cace) and [Wordnik API key](http://developer.wordnik.com/). Example:
+Then, create a `config/config.js` file in the project root that contain your [Twitter API keys](https://gist.github.com/jimkang/34d16247b40097d8cace). Example:
 
     module.exports = {
       twitter: {
@@ -16,8 +16,7 @@ Then, create a `config/config.js` file in the project root that contains [Twitte
         consumer_secret: 'asdfasdjfbkjqwhbefubvskjhfbgasdjfhgaksjdhfgaksdxvc',
         access_token: '9999999999-zxcvkljhpoiuqwerkjhmnb,mnzxcvasdklfhwer',
         access_token_secret: 'opoijkljsadfbzxcnvkmokwertlknfgmoskdfgossodrh'
-      },
-      wordnikAPIKey: 'mkomniojnnuibiybvuytvutrctrxezewarewetxyfcftvuhbg'
+      }
     };
 
 Or with Docker:
@@ -35,11 +34,6 @@ With Docker:
     docker run -v $(HOMEDIR)/config:/usr/src/app/config \
         -v $(HOMEDIR)/data:/usr/src/app/data \
         jkang/if-you-are-reading-this
-
-Tests
------
-
-Run tests with `make test`.
 
 License
 -------

@@ -1,8 +1,5 @@
 HOMEDIR = $(shell pwd)
 
-test:
-	node tests/basictests.js
-
 run:
 	node post-tweet-chain.js
 
@@ -30,7 +27,7 @@ push-docker-image: build-docker-image
 run-docker-image:
 	docker run -v $(HOMEDIR)/config:/usr/src/app/config \
 		jkang/if-you-are-reading-this \
-		make run-contingencybot
+		make run
 
 pushall: push-docker-image
 	git push origin master
