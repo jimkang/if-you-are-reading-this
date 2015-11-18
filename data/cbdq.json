@@ -30,7 +30,9 @@
     "the Joker",
     "the free market",
     "a chemical spill",
-    "an unknown contaminant"
+    "an unknown contaminant",
+    "the grey goo",
+    "a biocontainment"
   ],
 
   "action": [
@@ -40,19 +42,27 @@
     "eaten through the earth's core",
     "exploded",
     "burned most of #object#",
-    "compromised the facility",
-    "escaped the",
+    "compromised #facility#",
+    "escaped #facility#",
     "been released",
     "gone viral",
-    "breached containment",
-    "breached the defences",
-    "infiltrated the bunker",
+    "breached #facility#",
+    "infiltrated #facility#",
     "reached critical mass",
     "collapsed",
     "escalated",
     "opened the airlock",
     "become self-aware",
-    "gone missing"
+    "gone missing",
+    "gained sentience"
+  ],
+  
+  "facility": [
+    "the facility",
+    "the containment chamber",
+    "containment",
+    "the bunker",
+    "the defences"
   ],
 
   "process": [
@@ -108,7 +118,9 @@
     "City Hall",
     "the tri-county area",
     "the water supply",
-    "the escape routes"
+    "the escape routes",
+    "the escape pods",
+    "the remaining defences"
   ],
 
   "prediction": [
@@ -146,7 +158,9 @@
     "Bears",
     "Machines",
     "Driverless cars",
-    "Extreme temperatures"
+    "Extreme temperatures",
+    "nano-machines",
+    "xenomorphs"
   ],
 
   "paction": [
@@ -170,7 +184,9 @@
     "demand total submission",
     "assume control",
     "determine your fate",
-    "join the party"
+    "join the party",
+    "usher in the End Times",
+    "sing the song that ends the universe"
   ],
 
   "toilplace": [
