@@ -3,12 +3,23 @@
     "If you are reading this, #condition#. #prediction#. #direction#.",
     "If you are reading this, #condition#. #direction#.",
     "If you are reading this, #condition#. #prediction#.",
-    "Attn: #condition#. #prediction#. #direction#."
+    "If you are reading this, #condition#. #outcome#.",
+    "If you are reading this, #condition#. #direction#. #closing#.",
+    "Attn: #condition#. #prediction#. #direction#.",
+    "Attn: #condition#. #prediction#. #outcome#.",
+    "Warning: #condition#. #prediction#. #direction#.",
+    "Warning: #condition#. #direction#. #outcome#.",
+    "Red alert: #condition#. #prediction#.",
+    "Sensors indicate #condition#. #direction#.",
+    "It appears #condition#. #direction#.",
+    "It appears #condition#. #direction#. #closing#."
   ],
 
   "condition": [
     "#singularsubject# has #action#",
-    "the #process# has #completed#"
+    "the #process# has #completed#",
+    "you have #personalaction# #personalobject#",
+    "someone has #personalaction# #personalobject#"
   ],
 
   "singularsubject": [
@@ -36,7 +47,9 @@
     "the vortex",
     "Twitter",
     "the Internet",
-    "a strange quark"
+    "a strange quark",
+    "Elvis",
+    "a bunch of crap"
   ],
 
   "action": [
@@ -48,6 +61,7 @@
     "burned most of #object#",
     "compromised #facility#",
     "escaped #facility#",
+    "left #facility#",
     "been released",
     "gone viral",
     "breached #facility#",
@@ -58,7 +72,11 @@
     "opened the airlock",
     "become self-aware",
     "gone missing",
-    "gained sentience"
+    "gained sentience",
+    "disappeared",
+    "been kidnapped by ninjas",
+    "gone rogue",
+    "been poisoned"
   ],
   
   "facility": [
@@ -67,6 +85,7 @@
     "containment",
     "the bunker",
     "the defences",
+    "the building",
     "the shelter"
   ],
 
@@ -128,8 +147,51 @@
     "the remaining defences"
   ],
 
+"personalaction": [
+    "breached",
+    "broken",
+    "activated",
+    "disobeyed",
+    "abandoned",
+    "forgotten",
+    "entered",
+    "screwed up",
+    "revealed",
+    "opened",
+    "ruined",
+    "stolen",
+    "obtained",
+    "busted",
+    "triggered",
+    "terminated",
+    "intercepted"
+  ],
+  
+  "personalobject": [
+    "the self-destruct sequence",
+    "your orders",
+    "the MacGuffin device",
+    "the secret code",
+    "the password",
+    "your captain",
+    "your pants",
+    "an incorrect code",
+    "the squadron",
+    "the doomsday device",
+    "the mission",
+    "Plan B",
+    "the airlock",
+    "classified documents",
+    "your personnel records",
+    "Christmas",
+    "the training module",
+    "the Great British Bake Off"
+  ],
+
   "prediction": [
-    "#psubject# will now #paction#"
+    "#psubject# will now #paction#",
+    "#psubject# will soon #paction#",
+    "#psubject# will #paction#"
   ],
 
   "psubject": [
@@ -164,8 +226,10 @@
     "Machines",
     "Driverless cars",
     "Extreme temperatures",
-    "nano-machines",
-    "xenomorphs"
+    "Nano-machines",
+    "Xenomorphs",
+    "Swarms of locusts",
+    "Trained experts"
   ],
 
   "paction": [
@@ -191,7 +255,8 @@
     "determine your fate",
     "join the party",
     "usher in the End Times",
-    "sing the song that ends the universe"
+    "sing the song that ends the universe",
+    "collect your #possession#"
   ],
 
   "toilplace": [
@@ -203,9 +268,30 @@
     "in their bowels",
     "under their megachurch"
   ],
+  
+  "possession": [
+    "oxygen mask",
+    "weapons",
+    "personal effects",
+    "first aid kit",
+    "towel",
+    "cash",
+    "identification",
+    "cat",
+    "pliers",
+    "bike",
+    "emergency rations",
+    "mobile devices",
+    "valuables",
+    "stuff",
+    "clothing",
+    "belongings",
+    "family"
+],
 
   "direction": [
     "#bodyverb# your #bodypart#",
+    "#possessionverb# your #possession#",
     "#instructiveverb# #spatialpreposition# #place#",
     "#passiveinstructiveverb# #passiveinstructionobject#",
     "Do not attempt #restricted_citizen_action#"
@@ -234,6 +320,24 @@
     "back",
     "extremities"
   ],
+
+  "possessionverb": [
+    "Prepare",
+    "Locate",
+    "Find",
+    "Remove",
+    "Drop",
+    "Relinquish",
+    "Surrender",
+    "Guard",
+    "Protect",
+    "Hide",
+    "Abandon",
+    "Destroy",
+    "Eat",
+    "Arm",
+    "Get"
+ ],
 
   "instructiveverb": [
     "Shelter",
@@ -311,6 +415,116 @@
     "to moonwalk",
     "to ignore us",
     "to eat",
+    "to resist",
+    "to move",
     "casual enjoyment"
-  ]
+  ],
+  
+  "outcome": [
+   "#expect# #damageextent# #damage#."
+  ],
+  
+  "expect": [
+   "Expect",
+    "Anticipate",
+    "Prepare for",
+    "Plan for",
+    "There will be",
+    "There may be",
+    "All signs point to",
+    "Sources predict",
+    "You may experience"
+  ],
+  
+  "damageextent": [
+   "total",
+   "extensive",
+   "mass",
+   "massive",
+   "partial",
+   "widespread",
+   "intermittent",
+   "sporadic",
+   "catastrophic",
+   "global",
+   "temporary",
+   "long term",
+   "sudden",
+   "isolated",
+   "minor",
+   "unprecedented",
+   "unpredictable",
+   "spontaneous",
+   "historic",
+   "temporal",
+   "disco",
+   "corn",
+   "major",
+   "serious",
+   "unavoidable",
+   "slight",
+   "some",
+   "societal",
+   "local",
+   "pelvic",
+   "mental",
+   "mutual",
+   "profound",
+   "structural",
+   "spatial",
+   "gravitational",
+   "terminal",
+   "irreversible",
+   "brief"
+  ],
+  
+  "damage": [
+    "damage",
+    "panic",
+    "destruction",
+    "discomfort",
+    "casualties",
+    "failure",
+    "annihilation",
+    "ennui",
+    "collapse",
+    "fallout",
+    "consequences",
+    "crap",
+    "outages",
+    "effects",
+    "injury",
+    "delays",
+    "storms",
+    "infestation",
+    "war",
+    "famines",
+    "explosions",
+    "hallucinations",
+    "anarchy",
+    "breakdown",
+    "hiccups",
+    "confusion",
+    "snow",
+    "swelling",
+    "shock",
+    "shrinkage",
+    "madness",
+    "disorientation",
+    "stuff"
+    ],
+    
+    "closing": [
+   "This message will not repeat",
+   "This is your final warning",
+   "You have been warned",
+   "Goodbye",
+   "Good luck",
+   "This is not a test",
+   "This is not a drill",
+   "You have one hour",
+   "There will be no further instructions",
+   "End transmission",
+   "We're sorry"
+   ]
 }
