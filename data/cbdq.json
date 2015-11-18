@@ -156,7 +156,7 @@
     "release neurotoxins",
     "begin the Finalist Round",
     "initialise retaliation protocols",
-    "force us to toil in the sugar mines",
+    "force us to toil #toilplace#",
     "begin harvesting",
     "begin the ritual",
     "start the summoning",
@@ -171,6 +171,16 @@
     "assume control",
     "determine your fate",
     "join the party"
+  ],
+
+  "toilplace": [
+    "in the sugar mines",
+    "in the molybdenum refinery",
+    "under their moving walkways",
+    "in hell",
+    "on the rock farm",
+    "in their bowels",
+    "under their megachurch"
   ],
 
   "direction": [
