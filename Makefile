@@ -1,8 +1,5 @@
 HOMEDIR = $(shell pwd)
 
-test:
-	node tests/basictests.js
-
 start:
 	node responder.js
 
