@@ -35,10 +35,6 @@ With Docker:
         -v $(HOMEDIR)/data:/usr/src/app/data \
         jkang/if-you-are-reading-this
 
-Tests
------
-
-Run tests with `make test`.
 
 License
 -------
