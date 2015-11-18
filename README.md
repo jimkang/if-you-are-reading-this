@@ -16,8 +16,7 @@ Then, create a `config/config.js` file in the project root that contains [Twitte
         consumer_secret: 'asdfasdjfbkjqwhbefubvskjhfbgasdjfhgaksjdhfgaksdxvc',
         access_token: '9999999999-zxcvkljhpoiuqwerkjhmnb,mnzxcvasdklfhwer',
         access_token_secret: 'opoijkljsadfbzxcnvkmokwertlknfgmoskdfgossodrh'
-      },
-      wordnikAPIKey: 'mkomniojnnuibiybvuytvutrctrxezewarewetxyfcftvuhbg'
+      }
     };
 
 Or with Docker:
