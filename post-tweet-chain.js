@@ -24,13 +24,26 @@ if (process.argv.length > 2) {
 
 var twit = new Twit(config.twitter);
 
-async.waterfall(
-  [
-    getStatements,
-    postTweets
-  ],
-  wrapUp
-);
+var simpleResolvedText = processedGrammar.flatten('#origin#');
+
+if (simpleResolvedText.length <= 140) {
+  postTweets([simpleResolvedText], wrapUp);
+}
+else {
+  // Generate something probably long and post it in pieces.
+  postTweetSeries();
+}
+
+
+function postTweetSeries() {
+  async.waterfall(
+    [
+      getStatements,
+      postTweets
+    ],
+    wrapUp
+  );
+}
 
 function getStatements(done) {
   var parts = statementParts.map(getStatement);
@@ -43,7 +56,11 @@ function getStatement(part) {
 }
 
 function formatCondition(condition) {
-  return 'If you are reading this, ' + condition;
+  var preface = 'If you are reading this, ';
+  if (probable.roll(2) === 0) {
+    preface = 'Attn: ';
+  }
+  return preface + condition;
 }
 
 function addPeriod(s) {
@@ -62,7 +79,6 @@ function postTweets(parts, done) {
 
   function postNextTweet(lastTweet, done) {
     var text = '';
-    debugger;
     if (parts.length < 1) {
       callNextTick(done);
     }
@@ -93,11 +109,9 @@ function postTweets(parts, done) {
 
     var nextCallback = done;
     if (parts.length > 0) {
-      debugger;
       nextCallback = callPostNextTweet;
     }
 
-    debugger;
     twit.post('statuses/update', body, nextCallback);
 
     // This function saves the context, `parts` in particular.
@@ -106,7 +120,6 @@ function postTweets(parts, done) {
         callNextTick(done, error);
       }
       else {
-        debugger;
         postNextTweet(lastTweet, done);
       }
     }
