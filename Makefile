@@ -26,6 +26,7 @@ push-docker-image: build-docker-image
 
 run-docker-image:
 	docker run -v $(HOMEDIR)/config:/usr/src/app/config \
+		-v $(HOMEDIR)/data:/usr/src/app/data \
 		jkang/if-you-are-reading-this \
 		make run
 
