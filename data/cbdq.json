@@ -22,7 +22,7 @@
   ],
   "singularsubject": [
     "the Large Hadron Collider",
-    "Hurricane Dirk",
+    "#stormname#",
     "a raging wildfire",
     "the war",
     "nuclear war",
@@ -100,6 +100,21 @@
     "Windows Update",
     "backup plan",
     "emergency procedure"
+  ],
+  "stormname": [
+    "Hurricane #givenname#",
+    "Tropical Depression #givenname#",
+    "Typhoon #givenname#",
+    "#givenname# Volcano",
+    "Mt. #givenname#",
+    "Explode #givenname#"
+  ],
+  "givenname": [
+    "Dirk",
+    "Kaitlyn",
+    "Ferd",
+    "Jondson",
+    "Brontsy"
   ],
   "completed": [
     "completed",
