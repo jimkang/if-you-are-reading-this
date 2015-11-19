@@ -14,14 +14,12 @@
     "It appears #condition#. #direction#.",
     "It appears #condition#. #direction#. #closing#."
   ],
-
   "condition": [
     "#singularsubject# has #action#",
     "the #process# has #completed#",
     "you have #personalaction# #personalobject#",
     "someone has #personalaction# #personalobject#"
   ],
-
   "singularsubject": [
     "the self-destruct sequence",
     "the Large Hadron Collider",
@@ -51,7 +49,6 @@
     "Elvis",
     "a bunch of crap"
   ],
-
   "action": [
     "begun",
     "destroyed #object#",
@@ -78,7 +75,6 @@
     "gone rogue",
     "been poisoned"
   ],
-  
   "facility": [
     "the facility",
     "the containment chamber",
@@ -88,7 +84,6 @@
     "the building",
     "the shelter"
   ],
-
   "process": [
     "missile launch",
     "launch sequence",
@@ -102,7 +97,6 @@
     "backup plan",
     "emergency procedure"
   ],
-
   "completed": [
     "completed",
     "reached the point of no return",
@@ -126,7 +120,6 @@
     "initiated",
     "backfired"
   ],
-
   "object": [
     "the earth",
     "observable space-time",
@@ -146,8 +139,7 @@
     "the escape pods",
     "the remaining defences"
   ],
-
-"personalaction": [
+  "personalaction": [
     "breached",
     "broken",
     "activated",
@@ -167,7 +159,6 @@
     "intercepted",
     "compromised"
   ],
-  
   "personalobject": [
     "the self-destruct sequence",
     "your orders",
@@ -188,13 +179,11 @@
     "the training module",
     "the Great British Bake Off"
   ],
-
   "prediction": [
     "#psubject# will now #paction#",
     "#psubject# will soon #paction#",
     "#psubject# will #paction#"
   ],
-
   "psubject": [
     "Wolves",
     "Incineration units",
@@ -233,7 +222,6 @@
     "Trained experts",
     "Someone else"
   ],
-
   "paction": [
     "eat all stragglers",
     "engulf unprotected plains",
@@ -260,7 +248,6 @@
     "sing the song that ends the universe",
     "collect your #possession#"
   ],
-
   "toilplace": [
     "in the sugar mines",
     "in the molybdenum refinery",
@@ -273,7 +260,6 @@
     "in a 24-hour call center",
     "underground"
   ],
-  
   "possession": [
     "oxygen mask",
     "weapons",
@@ -292,8 +278,7 @@
     "clothing",
     "belongings",
     "family"
-],
-
+  ],
   "direction": [
     "#bodyverb# your #bodypart#",
     "#possessionverb# your #possession#",
@@ -301,7 +286,6 @@
     "#passiveinstructiveverb# #passiveinstructionobject#",
     "Do not attempt #restricted_citizen_action#"
   ],
-
   "bodyverb": [
     "Obey",
     "Eat",
@@ -310,7 +294,6 @@
     "Shelter",
     "Hide"
   ],
-
   "bodypart": [
     "ears",
     "head",
@@ -325,7 +308,6 @@
     "back",
     "extremities"
   ],
-
   "possessionverb": [
     "Prepare",
     "Locate",
@@ -342,8 +324,7 @@
     "Eat",
     "Arm",
     "Get"
- ],
-
+  ],
   "instructiveverb": [
     "Shelter",
     "Duck",
@@ -355,7 +336,6 @@
     "Tread water",
     "Crouch"
   ],
-
   "spatialpreposition": [
     "in",
     "under",
@@ -374,7 +354,6 @@
     "the stairs",
     "your assigned shelter"
   ],
-
   "passiveinstructiveverb": [
     "Wait",
     "Listen",
@@ -407,7 +386,6 @@
     "jerk",
     "coward"
   ],
-
   "restricted_citizen_action": [
     "to escape",
     "to flee",
@@ -430,13 +408,11 @@
     "anything",
     "anything foolish"
   ],
-  
   "outcome": [
-   "#expect# #damageextent# #damage#"
+    "#expect# #damageextent# #damage#"
   ],
-  
   "expect": [
-   "Expect",
+    "Expect",
     "Anticipate",
     "Prepare for",
     "Plan for",
@@ -446,50 +422,48 @@
     "Sources predict",
     "You may experience"
   ],
-  
   "damageextent": [
-   "total",
-   "extensive",
-   "mass",
-   "massive",
-   "partial",
-   "widespread",
-   "intermittent",
-   "sporadic",
-   "catastrophic",
-   "global",
-   "temporary",
-   "long term",
-   "sudden",
-   "isolated",
-   "minor",
-   "unprecedented",
-   "unpredictable",
-   "spontaneous",
-   "historic",
-   "temporal",
-   "disco",
-   "corn",
-   "major",
-   "serious",
-   "unavoidable",
-   "slight",
-   "some",
-   "societal",
-   "local",
-   "pelvic",
-   "mental",
-   "mutual",
-   "profound",
-   "structural",
-   "spatial",
-   "gravitational",
-   "terminal",
-   "irreversible",
-   "brief",
-   "mild"
+    "total",
+    "extensive",
+    "mass",
+    "massive",
+    "partial",
+    "widespread",
+    "intermittent",
+    "sporadic",
+    "catastrophic",
+    "global",
+    "temporary",
+    "long term",
+    "sudden",
+    "isolated",
+    "minor",
+    "unprecedented",
+    "unpredictable",
+    "spontaneous",
+    "historic",
+    "temporal",
+    "disco",
+    "corn",
+    "major",
+    "serious",
+    "unavoidable",
+    "slight",
+    "some",
+    "societal",
+    "local",
+    "pelvic",
+    "mental",
+    "mutual",
+    "profound",
+    "structural",
+    "spatial",
+    "gravitational",
+    "terminal",
+    "irreversible",
+    "brief",
+    "mild"
   ],
-  
   "damage": [
     "damage",
     "panic",
@@ -526,19 +500,18 @@
     "stuff",
     "annoyance",
     "boredom"
-    ],
-    
-    "closing": [
-   "This message will not repeat",
-   "This is your final warning",
-   "You have been warned",
-   "Goodbye",
-   "Good luck",
-   "This is not a test",
-   "This is not a drill",
-   "You have one hour",
-   "There will be no further instructions",
-   "End transmission",
-   "We're sorry"
-   ]
+  ],
+  "closing": [
+    "This message will not repeat",
+    "This is your final warning",
+    "You have been warned",
+    "Goodbye",
+    "Good luck",
+    "This is not a test",
+    "This is not a drill",
+    "You have one hour",
+    "There will be no further instructions",
+    "End transmission",
+    "We're sorry"
+  ]
 }
