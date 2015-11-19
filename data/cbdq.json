@@ -21,7 +21,6 @@
     "someone has #personalaction# #personalobject#"
   ],
   "singularsubject": [
-    "the self-destruct sequence",
     "the Large Hadron Collider",
     "Hurricane Dirk",
     "a raging wildfire",
@@ -42,15 +41,18 @@
     "an unknown contaminant",
     "the grey goo",
     "a biocontainment",
+    "a biocontaminant",
     "the vortex",
     "Twitter",
     "the Internet",
     "a strange quark",
     "Elvis",
-    "a bunch of crap"
+    "a bunch of crap",
+    "the Cloud",
+    "a Boltzmann brain",
+    "the cost of higher education"
   ],
   "action": [
-    "begun",
     "destroyed #object#",
     "overtaken Bob Newhart as the world's most beloved celebrity",
     "eaten through the earth's core",
@@ -73,7 +75,8 @@
     "disappeared",
     "been kidnapped by ninjas",
     "gone rogue",
-    "been poisoned"
+    "been poisoned",
+    "escaped orbit"
   ],
   "facility": [
     "the facility",
@@ -92,6 +95,7 @@
     "failsafe",
     "countdown",
     "self-destruct",
+    "the self-destruct sequence",
     "safety protocol",
     "Windows Update",
     "backup plan",
@@ -224,7 +228,7 @@
     "Social justice warriors",
     "Mantis shrimps",
     "Snake people",
-    "Cthulhu-inspired merchandise"
+    "Cultists"
   ],
   "paction": [
     "eat all stragglers",
@@ -296,7 +300,17 @@
     "Smell",
     "Clasp",
     "Shelter",
-    "Hide"
+    "Hide",
+    "Grab",
+    "Clutch",
+    "Hold onto",
+    "Cover",
+    "Armor",
+    "Shield",
+    "Moisten",
+    "Wash",
+    "Clean",
+    "Carefully examine"
   ],
   "bodypart": [
     "ears",
@@ -310,7 +324,10 @@
     "face",
     "neck",
     "back",
-    "extremities"
+    "extremities",
+    "hands",
+    "feet",
+    "teeth"
   ],
   "possessionverb": [
     "Prepare",
@@ -411,7 +428,8 @@
     "remove your harness",
     "reply to this message",
     "forward this message",
-    "change your facial expression"
+    "change your facial expression",
+    "fart"
   ],
   "attemptable_restricted_citizen_action": [
     "to escape",
