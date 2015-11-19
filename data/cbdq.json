@@ -220,7 +220,11 @@
     "Xenomorphs",
     "Swarms of locusts",
     "Trained experts",
-    "Someone else"
+    "Someone else",
+    "Social justice warriors",
+    "Mantis shrimps",
+    "Snake people",
+    "Cthulhu-inspired merchandise"
   ],
   "paction": [
     "eat all stragglers",
@@ -284,7 +288,7 @@
     "#possessionverb# your #possession#",
     "#instructiveverb# #spatialpreposition# #place#",
     "#passiveinstructiveverb# #passiveinstructionobject#",
-    "Do not attempt #restricted_citizen_action#"
+    "Do not #thing_to_not_do#"
   ],
   "bodyverb": [
     "Obey",
@@ -386,7 +390,30 @@
     "jerk",
     "coward"
   ],
+  "thing_to_not_do": [
+    "attempt #attemptable_restricted_citizen_action#",
+    "#restricted_citizen_action#"
+  ],
   "restricted_citizen_action": [
+    "breathe the fumes",
+    "collect $200",
+    "turn around",
+    "blog about this",
+    "tweet about this",
+    "retweet this",
+    "leave your zone",
+    "eat your pets",
+    "park in city officials' spaces",
+    "take your garbage to the curb",
+    "call busters, ghost- or otherwise",
+    "leave drinks unattended",
+    "take off your oxygen mask",
+    "remove your harness",
+    "reply to this message",
+    "forward this message",
+    "change your facial expression"
+  ],
+  "attemptable_restricted_citizen_action": [
     "to escape",
     "to flee",
     "copulation",
@@ -406,7 +433,8 @@
     "evasive action",
     "corrective measures",
     "anything",
-    "anything foolish"
+    "anything foolish",
+    "to smile"
   ],
   "outcome": [
     "#expect# #damageextent# #damage#"
