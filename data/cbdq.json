@@ -5,6 +5,7 @@
     "If you are reading this, #condition#. #prediction#.",
     "If you are reading this, #condition#. #outcome#.",
     "If you are reading this, #condition#. #direction#. #closing#.",
+    "If you are reading this, #condition#. #direction#. #ouch#.",
     "Attn: #condition#. #prediction#. #direction#.",
     "Attn: #condition#. #prediction#. #outcome#.",
     "Warning: #condition#. #prediction#. #direction#.",
@@ -243,7 +244,14 @@
     "Social justice warriors",
     "Mantis shrimps",
     "Snake people",
-    "Cultists"
+    "Cultists",
+    "Flight attendants",
+    "Team Rocket",
+    "The ocean",
+    "The hivemind",
+    "Your mother",
+    "The elders"
+
   ],
   "paction": [
     "eat all stragglers",
@@ -269,7 +277,20 @@
     "join the party",
     "usher in the End Times",
     "sing the song that ends the universe",
-    "collect your #possession#"
+    "collect your #possession#",
+    "bring you in for questioning",
+    "consider your pleas",
+    "begin phase two",
+    "start beverage service",
+    "finish the job",
+    "descend upon the masses",
+    "colonize the moon",
+    "increase your rent by 60%",
+    "take the wheel",
+    "advance to the next stage",
+    "seek vengeance",
+    "make final preparations",
+    "fulfill the prophecy"
   ],
   "toilplace": [
     "in the sugar mines",
@@ -281,7 +302,10 @@
     "under their megachurch",
     "in the suburbs",
     "in a 24-hour call center",
-    "underground"
+    "underground",
+    "in complete darkness",
+    "at sea",
+    "in an undisclosed location"
   ],
   "possession": [
     "oxygen mask",
@@ -444,7 +468,22 @@
     "reply to this message",
     "forward this message",
     "change your facial expression",
-    "fart"
+    "fart",
+    "make eye contact",
+    "look behind you",
+    "tell anyone"
+    "interrupt the process",
+    "make any sudden moves",
+    "accept suspicious packages",
+    "ask questions",
+    "discuss the incident with civilians",
+    "let them see you",
+    "eat the silica gel packet",
+    "investigate",
+    "change the channel",
+    "share the code",
+    "engage",
+    "call the police"
   ],
   "attemptable_restricted_citizen_action": [
     "to escape",
@@ -467,7 +506,12 @@
     "corrective measures",
     "anything",
     "anything foolish",
-    "to smile"
+    "to smile",
+    "to approach the leader",
+    "to contact the press",
+    "to change the plans",
+    "to stop the vehicle",
+    "to make phone calls"
   ],
   "outcome": [
     "#expect# #damageextent# #damage#"
@@ -561,6 +605,27 @@
     "stuff",
     "annoyance",
     "boredom"
+  ],
+  "ouch":[
+    "It will #hurt#",
+    "This may #hurt#",
+    "Your #bodypart# may #hurt#",
+    "It shouldn't #hurt#",
+    "It will #hurt# for a few days",
+    "It might #hurt#",
+    "Expect it to #hurt#",
+    "It shouldn't #hurt# at all",
+    "This won't #hurt#",
+    "It could #hurt"
+  ],
+  "hurt":[
+    "hurt",
+    "burn",
+    "sting",
+    "itch",
+    "chafe",
+    "be uncomfortable",
+    "feel good"
   ],
   "closing": [
     "This message will not repeat",
