@@ -18,8 +18,15 @@
   "condition": [
     "#singularsubject# has #action#",
     "the #process# has #completed#",
-    "you have #personalaction# #personalobject#",
-    "someone has #personalaction# #personalobject#"
+    "#personhas# #personal_action_on_object# #importantobject#",
+    "#personhas# #personal_action_on_entity# #importantentity#"
+  ],
+  "personhas": [
+    "you have",
+    "someone has",
+    "an individual has",
+    "a hacker has",
+    "your comrades have"
   ],
   "singularsubject": [
     "the Large Hadron Collider",
@@ -159,14 +166,13 @@
     "the escape pods",
     "the remaining defences"
   ],
-  "personalaction": [
+  "personal_action_on_object": [
     "breached",
     "broken",
     "activated",
-    "disobeyed",
     "abandoned",
     "forgotten",
-    "entered",
+    "used",
     "screwed up",
     "revealed",
     "opened",
@@ -179,16 +185,14 @@
     "intercepted",
     "compromised"
   ],
-  "personalobject": [
+  "importantobject": [
     "the self-destruct sequence",
     "your orders",
     "the MacGuffin device",
     "the secret code",
     "the password",
-    "your captain",
     "your pants",
     "an incorrect code",
-    "the squadron",
     "the doomsday device",
     "the mission",
     "Plan B",
@@ -197,6 +201,30 @@
     "your personnel records",
     "Christmas",
     "the training module",
+    "your state-issued tracking tag",
+    "your assigned inhaler",
+    "your AWS keys",
+    "your private SSH key",
+    "your OAuth access token",
+    "the master remote"
+  ],
+  "personal_action_on_entity": [
+    "disobeyed",
+    "abandoned",
+    "revealed",
+    "terminated",
+    "compromised",
+    "betrayed",
+    "disappointed"
+  ],
+  "importantentity": [
+    "your captain",    
+    "the squadron",
+    "the tontine",
+    "your mentor",
+    "your secret benefactor",
+    "the auditors",
+    "a Six Sigma black belt",
     "the Great British Bake Off"
   ],
   "prediction": [
