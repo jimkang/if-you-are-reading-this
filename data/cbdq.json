@@ -109,7 +109,9 @@
     "safety protocol",
     "Windows Update",
     "backup plan",
-    "emergency procedure"
+    "emergency procedure",
+    "mating ceremony",
+    "intervention"
   ],
   "stormname": [
     "Hurricane #givenname#",
@@ -147,7 +149,8 @@
     "been cancelled",
     "shut down all communications",
     "initiated",
-    "backfired"
+    "backfired",
+    "ended in tears"
   ],
   "object": [
     "the earth",
@@ -227,7 +230,9 @@
     "your secret benefactor",
     "the auditors",
     "a Six Sigma black belt",
-    "the Great British Bake Off"
+    "the Great British Bake Off",
+    "the president",
+    "your granfalloon"
   ],
   "prediction": [
     "#psubject# will now #paction#",
@@ -285,7 +290,7 @@
   ],
   "paction": [
     "eat all stragglers",
-    "engulf unprotected plains",
+    "engulf #victimplace#",
     "rise to complete dominance",
     "release neurotoxins",
     "begin the Finalist Round",
@@ -296,7 +301,7 @@
     "start the summoning",
     "report to headquarters",
     "show no mercy",
-    "obliterate the coastline",
+    "obliterate #victimplace#",
     "invade the city",
     "spare no one",
     "start the fire",
@@ -314,7 +319,7 @@
     "start beverage service",
     "finish the job",
     "descend upon the masses",
-    "colonize the moon",
+    "colonize #victimplace#",
     "increase your rent by 60%",
     "take the wheel",
     "advance to the next stage",
@@ -398,6 +403,16 @@
     "feet",
     "teeth"
   ],
+  "victimplace": [
+    "the plains",
+    "the Western hemisphere",
+    "affordable neighborhoods",
+    "participating Dunkin Donuts locations",
+    "the horizon",
+    "the moon",
+    "the tri-state area",
+    "the coastline"
+  ],
   "possessionverb": [
     "Prepare",
     "Locate",
@@ -421,7 +436,6 @@
     "Hide",
     "Obey",
     "Eat",
-    "Smell",
     "Lie",
     "Tread water",
     "Crouch"
@@ -451,7 +465,8 @@
     "Cower",
     "Die",
     "Sleep",
-    "Run"
+    "Run",
+    "Deactivate"
   ],
   "passiveinstructionobject": [
     "for further instructions",
@@ -463,7 +478,8 @@
     "in place",
     "until further notice",
     "with your eyes tightly shut",
-    "while you still can"
+    "while you still can",
+    "indefinitely"
   ],
   "persontype": [
     "American",
@@ -482,7 +498,7 @@
   ],
   "restricted_citizen_action": [
     "breathe the fumes",
-    "collect $200",
+    "pass go or collect $200",
     "turn around",
     "blog about this",
     "tweet about this",
