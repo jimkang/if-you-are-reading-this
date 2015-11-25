@@ -58,7 +58,8 @@
     "a bunch of crap",
     "the Cloud",
     "a Boltzmann brain",
-    "the cost of higher education"
+    "the cost of higher education",
+    "WarMECH"
   ],
   "action": [
     "destroyed #object#",
@@ -84,7 +85,8 @@
     "been kidnapped by ninjas",
     "gone rogue",
     "been poisoned",
-    "escaped orbit"
+    "escaped orbit",
+    "dealt 64000DMG"
   ],
   "facility": [
     "the facility",
