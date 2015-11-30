@@ -2,7 +2,7 @@ var tracery = require('tracery-grammar');
 var jsonfile = require('jsonfile');
 
 var root = 'origin';
-var n = 100;
+var n = 5;
 
 if (process.argv.length > 3) {
   n = process.argv[3];

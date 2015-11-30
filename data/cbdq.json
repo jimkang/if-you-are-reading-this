@@ -31,14 +31,14 @@
   "singularsubject": [
     "the Large Hadron Collider",
     "#stormname#",
-    "a raging wildfire",
+    "a bizarre wildfire",
     "the war",
     "nuclear war",
     "the apocalypse",
     "a black hole",
     "a singularity",
     "thermonuclear conflict",
-    "experimental fusion reactor",
+    "an experimental fusion reactor",
     "the Emergency Broadcast System",
     "Helvetica Syndrome",
     "winter",
@@ -48,7 +48,7 @@
     "a chemical spill",
     "an unknown contaminant",
     "the grey goo",
-    "a biocontainment",
+    "a chromatic blob",
     "a biocontaminant",
     "the vortex",
     "Twitter",
@@ -59,14 +59,23 @@
     "the Cloud",
     "a Boltzmann brain",
     "the cost of higher education",
-    "WarMECH"
+    "WarMECH",
+    "AWS",
+    "an influx of luxury condos",
+    "industrial mutants",
+    "the Wu-Tang Clan",
+    "a union of #robot#s",
+    "a 800-ft. tall sentient #robot#",
+    "the Black Omen"
   ],
   "action": [
     "destroyed #object#",
-    "overtaken Bob Newhart as the world's most beloved celebrity",
     "eaten through the earth's core",
     "exploded",
     "burned most of #object#",
+    "melted all of #object#",
+    "frozen #object#",
+    "frozen #facility#",
     "compromised #facility#",
     "escaped #facility#",
     "left #facility#",
@@ -80,13 +89,14 @@
     "opened the airlock",
     "become self-aware",
     "gone missing",
+    "suddenly vanished",
     "gained sentience",
     "disappeared",
     "been kidnapped by ninjas",
     "gone rogue",
     "been poisoned",
     "escaped orbit",
-    "dealt 64000DMG"
+    "dealt 64000 DMG"
   ],
   "facility": [
     "the facility",
@@ -95,7 +105,17 @@
     "the bunker",
     "the defences",
     "the building",
-    "the shelter"
+    "the shelter",
+    "orbit",
+    "the sewer system",
+    "the catacombs",
+    "the clean room",
+    "the laboratory",
+    "the cloning vats",
+    "the isolation tank",
+    "CERN",
+    "the staging servers",
+    "the production cluster"
   ],
   "process": [
     "missile launch",
@@ -105,13 +125,22 @@
     "failsafe",
     "countdown",
     "self-destruct",
-    "the self-destruct sequence",
+    "self-destruct sequence",
     "safety protocol",
     "Windows Update",
     "backup plan",
     "emergency procedure",
     "mating ceremony",
-    "intervention"
+    "intervention",
+    "incubation sequence",
+    "rite of puberty"
+  ],
+  "robot": [
+    "Roomba",
+    "satellite",
+    "drone",
+    "nanobot",
+    "driverless cars"
   ],
   "stormname": [
     "Hurricane #givenname#",
@@ -169,10 +198,10 @@
     "the water supply",
     "the escape routes",
     "the escape pods",
-    "the remaining defences"
+    "the remaining defences",
+    "the sewer system"
   ],
   "personal_action_on_object": [
-    "breached",
     "broken",
     "activated",
     "abandoned",
@@ -188,7 +217,8 @@
     "triggered",
     "terminated",
     "intercepted",
-    "compromised"
+    "compromised",
+    "completed"
   ],
   "importantobject": [
     "the self-destruct sequence",
@@ -210,7 +240,6 @@
     "your assigned inhaler",
     "your AWS keys",
     "your private SSH key",
-    "your OAuth access token",
     "the master remote"
   ],
   "personal_action_on_entity": [
@@ -220,11 +249,27 @@
     "terminated",
     "compromised",
     "betrayed",
-    "disappointed"
+    "disappointed",
+    "crossed",
+    "excited",
+    "upset",
+    "danced the #dance# with",
+    "created an awkward situation for",
+    "humiliated",
+    "pleasured",
+    "angered",
+    "uncovered",
+    "discovered"
+  ],
+  "dance": [
+    "Lambada",
+    "Final Ritual",
+    "Running Man",
+    "Batusi"
   ],
   "importantentity": [
     "your captain",    
-    "the squadron",
+    "your squadron",
     "the tontine",
     "your mentor",
     "your secret benefactor",
@@ -232,7 +277,28 @@
     "a Six Sigma black belt",
     "the Great British Bake Off",
     "the president",
-    "your granfalloon"
+    "your granfalloon",
+    "the UN",
+    "the Abbott",
+    "the Gnomes of Zurich",
+    "the Ghost of Christmas Future",
+    "Zuul",
+    "the elves of Iceland",
+    "NATO",
+    "the Joint Chiefs",
+    "the Supreme Soviet",
+    "Lenin's preserved body",
+    "Richard Stallman",
+    "the AARP",
+    "Eurovision",
+    "the Druids",
+    "the Cloud",
+    "the NSA",
+    "America's Next Top Model",
+    "Team Rocket",
+    "the Wu-Tang Clan",
+    "the Blogosphere",
+    "a 800-ft. tall sentient #robot#"
   ],
   "prediction": [
     "#psubject# will now #paction#",
@@ -285,8 +351,8 @@
     "The ocean",
     "The hivemind",
     "Your mother",
-    "The elders"
-
+    "The elders",
+    "Internet comment sections"
   ],
   "paction": [
     "eat all stragglers",
@@ -320,6 +386,8 @@
     "finish the job",
     "descend upon the masses",
     "colonize #victimplace#",
+    "photograph #victimplace# with #phototech#",
+    "gentrify #victimplace#",    
     "increase your rent by 60%",
     "take the wheel",
     "advance to the next stage",
@@ -359,7 +427,15 @@
     "stuff",
     "clothing",
     "belongings",
-    "family"
+    "family",
+    "condoms",
+    "gas mask",
+    "miniature American flags",
+    "cool sunglasses",
+    "dancing shoes",
+    "hazmat suit",
+    "ultrashock helmet",
+    "uniform"
   ],
   "direction": [
     "#bodyverb# your #bodypart#",
@@ -384,7 +460,8 @@
     "Moisten",
     "Wash",
     "Clean",
-    "Carefully examine"
+    "Carefully examine",
+    "Listen to"
   ],
   "bodypart": [
     "ears",
@@ -407,6 +484,7 @@
     "the plains",
     "the Western hemisphere",
     "affordable neighborhoods",
+    "houses in reach of the middle-class",
     "participating Dunkin Donuts locations",
     "the horizon",
     "the moon",
@@ -428,7 +506,8 @@
     "Destroy",
     "Eat",
     "Arm",
-    "Get"
+    "Get",
+    "Charge"
   ],
   "instructiveverb": [
     "Shelter",
@@ -491,6 +570,12 @@
     "soldier",
     "jerk",
     "coward"
+  ],
+  "phototech": [
+    "lots of HDR",
+    "lens flares",
+    "Instagram filters",
+    "a fisheye lens"
   ],
   "thing_to_not_do": [
     "attempt #attemptable_restricted_citizen_action#",
@@ -650,7 +735,8 @@
     "disorientation",
     "stuff",
     "annoyance",
-    "boredom"
+    "boredom",
+    "nausea"
   ],
   "ouch":[
     "It will #hurt#",
