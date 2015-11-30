@@ -232,8 +232,7 @@
     "the training module",
     "your state-issued tracking tag",
     "your assigned inhaler",
-    "your AWS keys",
-    "your private SSH key",
+    "your private key",
     "the master remote"
   ],
   "personal_action_on_entity": [
@@ -252,8 +251,7 @@
     "humiliated",
     "pleasured",
     "angered",
-    "uncovered",
-    "discovered"
+    "uncovered"
   ],
   "dance": [
     "Lambada",
@@ -263,7 +261,7 @@
   ],
   "importantentity": [
     "your captain",
-    "Captain #trendyname",
+    "#officertitle# #trendyname#",
     "your squadron",
     "the tontine",
     "your mentor",
@@ -294,6 +292,18 @@
     "the Wu-Tang Clan",
     "the Blogosphere",
     "a 800-ft. tall sentient #robot#"
+  ],
+  "officertitle": [
+    "Sgt.",
+    "Lt.",
+    "Captain",
+    "Major",
+    "Lt. Col.",
+    "Col.",
+    "Brigadier General",
+    "Major General",
+    "Lt. Gen.",
+    "General"
   ],
   "prediction": [
     "#psubject# will now #paction#",
@@ -438,7 +448,8 @@
     "#possessionverb# your #possession#",
     "#instructiveverb# #spatialpreposition# #place#",
     "#passiveinstructiveverb# #passiveinstructionobject#",
-    "Do not #thing_to_not_do#"
+    "Do not #thing_to_not_do#",
+    "Report to #reportobject#"
   ],
   "bodyverb": [
     "Obey",
@@ -503,7 +514,9 @@
     "Eat",
     "Arm",
     "Get",
-    "Charge"
+    "Charge",
+    "Wear",
+    "Equip"
   ],
   "instructiveverb": [
     "Shelter",
@@ -694,7 +707,8 @@
     "terminal",
     "irreversible",
     "brief",
-    "mild"
+    "mild",
+    "pork"
   ],
   "damage": [
     "damage",
@@ -756,6 +770,19 @@
     "feel good",
     "cause a mild #bodypart# rash"
   ],
+  "reportobject": [
+    "your new commander, #officertitle# #trendyname#",
+    "#facility# at #time#",
+    "#place#"
+  ],
+  "time": [
+    "0600 hours",
+    "dawn",
+    "dusk",
+    "your convenience",
+    "noon",
+    "9 AM"
+  ],
   "closing": [
     "This message will not repeat",
     "This is your final warning",
@@ -767,7 +794,8 @@
     "You have one hour",
     "There will be no further instructions",
     "End transmission",
-    "We're sorry"
+    "We're sorry",
+    "See #officertitle# #trendyname# for further instruction"
   ],
 
 
