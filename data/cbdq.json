@@ -212,7 +212,8 @@
     "terminated",
     "intercepted",
     "compromised",
-    "completed"
+    "completed",
+    "released"
   ],
   "importantobject": [
     "the self-destruct sequence",
@@ -251,7 +252,8 @@
     "humiliated",
     "pleasured",
     "angered",
-    "uncovered"
+    "uncovered",
+    "released"
   ],
   "dance": [
     "Lambada",
