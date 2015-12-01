@@ -213,7 +213,8 @@
     "intercepted",
     "compromised",
     "completed",
-    "released"
+    "released",
+    "unleashed"
   ],
   "importantobject": [
     "the self-destruct sequence",
@@ -253,7 +254,8 @@
     "pleasured",
     "angered",
     "uncovered",
-    "released"
+    "released",
+    "unleashed"
   ],
   "dance": [
     "Lambada",
@@ -653,7 +655,8 @@
     "to contact the press",
     "to change the plans",
     "to stop the vehicle",
-    "to make phone calls"
+    "to make phone calls",
+    "contact"
   ],
   "outcome": [
     "#expect# #damageextent# #damage#"
