@@ -472,7 +472,8 @@
     "Wash",
     "Clean",
     "Carefully examine",
-    "Listen to"
+    "Listen to",
+    "Gird"
   ],
   "bodypart": [
     "ears",
@@ -489,7 +490,8 @@
     "extremities",
     "hands",
     "feet",
-    "teeth"
+    "teeth",
+    "loins"
   ],
   "victimplace": [
     "the plains",
