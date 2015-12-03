@@ -25,9 +25,15 @@
     "you have",
     "someone has",
     "an individual has",
-    "a hacker has",
-    "your comrades have",
-    "young #trendyname# has"
+    "#saboteur# has",
+    "your comrades have"
+  ],
+  "saboteur": [
+    "a saboteur",
+    "a hacker",
+    "a rogue agent",
+    "a trusted friend",
+    "young #trendyname#"
   ],
   "singularsubject": [
     "the Large Hadron Collider",
@@ -63,7 +69,7 @@
     "WarMECH",
     "AWS",
     "an influx of luxury condos",
-    "industrial mutants",
+    "a gaggle of industrial mutants",
     "the Wu-Tang Clan",
     "a union of #robot#s",
     "a 800-ft. tall sentient #robot#",
@@ -74,7 +80,7 @@
     "eaten through the earth's core",
     "exploded",
     "burned most of #object#",
-    "melted all of #object#",
+    "melted #object#",
     "frozen #object#",
     "frozen #facility#",
     "compromised #facility#",
@@ -142,7 +148,7 @@
     "satellite",
     "drone",
     "nanobot",
-    "driverless cars"
+    "fleet of driverless cars"
   ],
   "stormname": [
     "Hurricane #trendyname#",
@@ -351,8 +357,7 @@
     "Xenomorphs",
     "Swarms of locusts",
     "Trained experts",
-    "Someone else",
-    "Social justice warriors",
+    "The others",
     "Mantis shrimps",
     "Snake people",
     "Cultists",
@@ -365,8 +370,11 @@
     "Internet comment sections"
   ],
   "paction": [
+    "#paction_custom#",
+    "#mass_destruction_action#"
+  ],
+  "paction_custom": [
     "eat all stragglers",
-    "engulf #victimplace#",
     "rise to complete dominance",
     "release neurotoxins",
     "begin the Finalist Round",
@@ -377,8 +385,6 @@
     "start the summoning",
     "report to headquarters",
     "show no mercy",
-    "obliterate #victimplace#",
-    "invade the city",
     "spare no one",
     "start the fire",
     "rule the skies",
@@ -396,14 +402,35 @@
     "finish the job",
     "descend upon the masses",
     "colonize #victimplace#",
-    "photograph #victimplace# with #phototech#",
-    "gentrify #victimplace#",    
     "increase your rent by 60%",
     "take the wheel",
     "advance to the next stage",
     "seek vengeance",
     "make final preparations",
     "fulfill the prophecy"
+  ],
+  "mass_destruction_action": [
+    "#destroy_place#",
+    "#destroy_institution"
+  ],
+  "destroy_place": [
+    "engulf #victimplace#",
+    "obliterate #victimplace#",
+    "gut #victimplace#",
+    "invade #victimplace#",
+    "raze #victimplace#",
+    "photograph #victimplace# with #phototech#",
+    "gentrify #victimplace#",
+    "destroy #victimplace#"
+  ],
+  "destroy_institution": [
+    "obliterate #victim_institution#",
+    "gut #victim_institution#",
+    "raze #victim_institution#",
+    "defund #victim_institution#",
+    "destroy #victim_institution#",
+    "misinform the public about #victim_institution#",
+    "force #victim_institution# to adopt arbitrary standards"
   ],
   "toilplace": [
     "in the sugar mines",
@@ -498,12 +525,32 @@
     "the plains",
     "the Western hemisphere",
     "affordable neighborhoods",
-    "houses in reach of the middle-class",
+    "housing accessible to the middle-class",
     "participating Dunkin Donuts locations",
     "the horizon",
     "the moon",
     "the tri-state area",
-    "the coastline"
+    "the coastline",
+    "the sea",
+    "Antarctica",
+    "the city",
+    "local villages",
+    "all libraries"
+  ],
+  "victim_institution": [
+    "affordable neighborhoods",
+    "housing accessible to the middle-class",
+    "the middle class",
+    "the need for humanity",
+    "the eight-hour workday",
+    "the social safety net",
+    "math education",
+    "art education",
+    "public broadcasting",
+    "Planned Parenthood",
+    "libraries",
+    "Net Neutrality",
+    "the non-commercial web"
   ],
   "possessionverb": [
     "Prepare",
