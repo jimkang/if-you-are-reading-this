@@ -242,7 +242,8 @@
     "your state-issued tracking tag",
     "your assigned inhaler",
     "your private key",
-    "the master remote"
+    "the master remote",
+    "the Pantone Color of the Year"
   ],
   "personal_action_on_entity": [
     "disobeyed",
