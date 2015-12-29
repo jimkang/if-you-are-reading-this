@@ -19,12 +19,13 @@
     "#singularsubject# has #action#",
     "the #process# has #completed#",
     "#personhas# #personal_action_on_object# #importantobject#",
-    "#personhas# #personal_action_on_entity# #importantentity#"
+    "#personhas# #personal_action_on_entity# #importantentity#",
+    "#concept# #concept_action#"
   ],
   "personhas": [
     "you have",
     "someone has",
-    "an individual has",
+    "a particular individual has",
     "#saboteur# has",
     "your comrades have"
   ],
@@ -73,6 +74,7 @@
     "the Wu-Tang Clan",
     "a union of #robot#s",
     "a 800-ft. tall sentient #robot#",
+    "a 200-ton sentient #robot#",
     "the Black Omen"
   ],
   "action": [
@@ -132,6 +134,7 @@
     "system shutdown",
     "failsafe",
     "countdown",
+    "Final Countdown",
     "self-destruct",
     "self-destruct sequence",
     "safety protocol",
@@ -254,16 +257,14 @@
     "betrayed",
     "disappointed",
     "crossed",
-    "excited",
     "upset",
     "danced the #dance# with",
-    "created an awkward situation for",
-    "humiliated",
-    "pleasured",
+    "created an embarrassing situation for",
     "angered",
     "uncovered",
     "released",
-    "unleashed"
+    "unleashed",
+    "awakened"
   ],
   "dance": [
     "Lambada",
@@ -296,14 +297,17 @@
     "Richard Stallman",
     "the AARP",
     "Eurovision",
-    "the Druids",
     "the Cloud",
     "the NSA",
     "America's Next Top Model",
     "Team Rocket",
     "the Wu-Tang Clan",
     "the Blogosphere",
-    "a 800-ft. tall sentient #robot#"
+    "a 800-ft. tall sentient #robot#",
+    "Politburo",
+    "Club for Growth",
+    "Weird Twitter",
+    "haggard druids"
   ],
   "officertitle": [
     "Sgt.",
@@ -347,7 +351,6 @@
     "Drones",
     "Unattended children",
     "Fires",
-    "Dark clouds",
     "Industrial waste",
     "Bedbugs",
     "Bears",
@@ -368,7 +371,9 @@
     "The hivemind",
     "Your mother",
     "The elders",
-    "Internet comment sections"
+    "Internet comment sections",
+    "Juggalos",
+    "Druids"
   ],
   "paction": [
     "#paction_custom#",
@@ -378,17 +383,15 @@
     "eat all stragglers",
     "rise to complete dominance",
     "release neurotoxins",
-    "begin the Finalist Round",
+    "#advance_word# the Finalist Round",
     "initialise retaliation protocols",
     "force us to toil #toilplace#",
-    "begin harvesting",
-    "begin the ritual",
+    "#advance_word# harvesting",
+    "#advance_word# the ritual",
     "start the summoning",
     "report to headquarters",
     "show no mercy",
     "spare no one",
-    "start the fire",
-    "rule the skies",
     "demand total submission",
     "assume control",
     "determine your fate",
@@ -398,21 +401,55 @@
     "collect your #possession#",
     "bring you in for questioning",
     "consider your pleas",
-    "begin phase two",
+    "#advance_word# phase #number_word#",
     "start beverage service",
     "finish the job",
     "descend upon the masses",
     "colonize #victimplace#",
-    "increase your rent by 60%",
+    "increase your rent by #large_amount#",
     "take the wheel",
     "advance to the next stage",
     "seek vengeance",
     "make final preparations",
-    "fulfill the prophecy"
+    "fulfill the prophecy",
+    "discover #concept#"
+  ],
+  "advance_word": [
+    "advance to",
+    "begin",
+    "proceed to",
+    "initiate",
+    "enter"
+  ],
+  "number_word": [
+    "zero",
+    "one",
+    "two",
+    "three",
+    "four",
+    "five",
+    "six",
+    "seven",
+    "eight",
+    "nine"
+  ],
+  "large_amount": [
+    "50%",
+    "60%",
+    "90%",
+    "100%",
+    "150%",
+    "200%",
+    "five-fold",
+    "tenfold",
+    "$500",
+    "$1000",
+    "enough to put it well out of your reach"
   ],
   "mass_destruction_action": [
     "#destroy_place#",
-    "#destroy_institution"
+    "#destroy_institution",
+    "#destroy_things"
   ],
   "destroy_place": [
     "engulf #victimplace#",
@@ -420,9 +457,11 @@
     "gut #victimplace#",
     "invade #victimplace#",
     "raze #victimplace#",
-    "photograph #victimplace# with #phototech#",
     "gentrify #victimplace#",
-    "destroy #victimplace#"
+    "destroy #victimplace#",
+    "occupy #victimplace#",
+    "co-opt #victimplace#",
+    "drive up rent in #victimplace#"
   ],
   "destroy_institution": [
     "obliterate #victim_institution#",
@@ -430,8 +469,13 @@
     "raze #victim_institution#",
     "defund #victim_institution#",
     "destroy #victim_institution#",
-    "misinform the public about #victim_institution#",
-    "force #victim_institution# to adopt arbitrary standards"
+    "misinform the public about #victim_institution#"
+  ],
+  "destroy_things": [
+    "crush all #possession#s",
+    "confiscate all #possession#s",
+    "remotely explode all #possession#s",
+    "emit #possession#-destroying waves"
   ],
   "toilplace": [
     "in the sugar mines",
@@ -635,12 +679,6 @@
     "jerk",
     "coward"
   ],
-  "phototech": [
-    "lots of HDR",
-    "lens flares",
-    "Instagram filters",
-    "a fisheye lens"
-  ],
   "thing_to_not_do": [
     "attempt #attemptable_restricted_citizen_action#",
     "#restricted_citizen_action#"
@@ -764,7 +802,8 @@
     "irreversible",
     "brief",
     "mild",
-    "pork"
+    "pork",
+    "personal"
   ],
   "damage": [
     "damage",
@@ -802,7 +841,8 @@
     "stuff",
     "annoyance",
     "boredom",
-    "nausea"
+    "nausea",
+    "diarrhea"
   ],
   "ouch":[
     "It will #hurt#",
@@ -851,10 +891,46 @@
     "There will be no further instructions",
     "End transmission",
     "We're sorry",
-    "See #officertitle# #trendyname# for further instruction"
+    "See #officertitle# #trendyname# for further instruction",
+    "Remember: everything happens for a reason"
   ],
-
-
+  "concept": [
+    "the concept of permadeath",
+    "GTD time management",
+    "the idea of YOLO",
+    "Twitter bots",
+    "DEEZ NUTS",
+    "the revelation that time is a flat circle",
+    "OmniFocus",
+    "Jesus was born in the spring",
+    "the view of gravity as curves in space-time",
+    "test-driven development",
+    "the idea that the earth is not flat",
+    "cat ownership",
+    "Weird Twitter",
+    "the concept of Original Sin",
+    "microservice-based architecture",
+    "smoking's connection to lung cancer",
+    "the comfort of fleece jackets",
+    "the idea that handwashing prevents the spread of disease",
+    "vi",
+    "emacs",
+    "lifting heavy",
+    "CrossFit",
+    "Creationism",
+    "scrapbooking",
+    "turn-based gameplay",
+    "the in-app-purchase revenue model",
+    "the DLC-based revenue model",
+    "a job as a way to feel fulfilled"
+  ],
+  "concept_action": [
+    "has taken the world by storm",
+    "has been invalidated",
+    "is now banned",
+    "has started a neverending war",
+    "has upset #importantentity#"
+  ],
 
   "trendyname": [
     "#boyconsonant##boysyl1##boysyl2#",
