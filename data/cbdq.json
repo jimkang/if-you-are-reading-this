@@ -472,9 +472,9 @@
     "misinform the public about #victim_institution#"
   ],
   "destroy_things": [
-    "crush all #possession#s",
-    "confiscate all #possession#s",
-    "remotely explode all #possession#s",
+    "crush all #possession_safe_for_simple_pluralization#s",
+    "confiscate all #possession_safe_for_simple_pluralization#s",
+    "remotely explode all #possession_safe_for_simple_pluralization#s",
     "emit #possession#-destroying waves"
   ],
   "toilplace": [
@@ -501,7 +501,6 @@
     "cash",
     "identification",
     "cat",
-    "pliers",
     "bike",
     "emergency rations",
     "mobile devices",
@@ -510,7 +509,7 @@
     "clothing",
     "belongings",
     "family",
-    "condoms",
+    "condom",
     "gas mask",
     "miniature American flags",
     "cool sunglasses",
@@ -518,7 +517,35 @@
     "hazmat suit",
     "ultrashock helmet",
     "uniform",
-    "baby #trendyname#"
+    "baby #trendyname#",
+    "body spray",
+    "vaporizer",
+    "gluten-free food"    
+  ],
+  "possession_safe_for_simple_pluralization": [
+    "oxygen mask",
+    "weapon",
+    "first aid kit",
+    "towel",
+    "cat",
+    "bike",
+    "food",
+    "mobile device",
+    "condom",
+    "gas mask",
+    "miniature American flag",
+    "cool sunglass",
+    "dancing shoe",
+    "hazmat suit",
+    "ultrashock helmet",
+    "uniform",
+    "Apple device",
+    "Android device",
+    "Oculus Rift",
+    "book",
+    "body spray",
+    "vaporizer",
+    "gluten-free food"
   ],
   "direction": [
     "#bodyverb# your #bodypart#",
