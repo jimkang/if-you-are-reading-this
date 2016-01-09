@@ -75,7 +75,10 @@
     "a union of #robot#s",
     "a 800-ft. tall sentient #robot#",
     "a 200-ton sentient #robot#",
-    "the Black Omen"
+    "the Black Omen",
+    "Smidgeo",
+    "smidgeo.com",
+    "#trendyname#'s food allergy"
   ],
   "action": [
     "destroyed #object#",
@@ -125,7 +128,8 @@
     "the isolation tank",
     "CERN",
     "the staging servers",
-    "the production cluster"
+    "the production cluster",
+    "the #possession_safe_for_simple_pluralization# factory"
   ],
   "process": [
     "missile launch",
@@ -818,6 +822,8 @@
     "some",
     "societal",
     "local",
+    "locally-grown",
+    "mass-produced",
     "pelvic",
     "mental",
     "mutual",
@@ -929,7 +935,6 @@
     "DEEZ NUTS",
     "the revelation that time is a flat circle",
     "OmniFocus",
-    "Jesus was born in the spring",
     "the view of gravity as curves in space-time",
     "test-driven development",
     "the idea that the earth is not flat",
@@ -956,7 +961,11 @@
     "\\#adulting",
     "functional programming",
     "Agile",
-    "some new diet trend"
+    "some new diet trend",
+    "FOMO",
+    "Smidgeo",
+    "Smidgeo Smarketing",
+    "factory farming"
   ],
   "concept_action": [
     "has taken the world by storm",
