@@ -452,8 +452,8 @@
   ],
   "mass_destruction_action": [
     "#destroy_place#",
-    "#destroy_institution",
-    "#destroy_things"
+    "#destroy_institution#",
+    "#destroy_things#"
   ],
   "destroy_place": [
     "engulf #victimplace#",
