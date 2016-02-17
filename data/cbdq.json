@@ -295,8 +295,6 @@
     "Zuul",
     "the elves of Iceland",
     "NATO",
-    "the Joint Chiefs",
-    "the Supreme Soviet",
     "Lenin's preserved body",
     "Richard Stallman",
     "the AARP",
@@ -521,7 +519,6 @@
     "hazmat suit",
     "ultrashock helmet",
     "uniform",
-    "baby #trendyname#",
     "body spray",
     "vaporizer",
     "gluten-free food"    
@@ -661,7 +658,6 @@
   "spatialpreposition": [
     "in",
     "under",
-    "over",
     "near",
     "inside",
     "adjacent to",
@@ -928,16 +924,15 @@
     "Remember: everything happens for a reason"
   ],
   "concept": [
-    "the concept of permadeath",
+    "permadeath",
     "GTD time management",
-    "the idea of YOLO",
     "Twitter bots",
     "DEEZ NUTS",
+    "YOLO",
     "the revelation that time is a flat circle",
     "OmniFocus",
-    "the view of gravity as curves in space-time",
+    "gravity as curves in space-time",
     "test-driven development",
-    "the idea that the earth is not flat",
     "cat ownership",
     "Weird Twitter",
     "the concept of Original Sin",
@@ -965,14 +960,15 @@
     "FOMO",
     "Smidgeo",
     "Smidgeo Smarketing",
-    "factory farming"
+    "a gravity wave"
   ],
   "concept_action": [
     "has taken the world by storm",
     "has been invalidated",
     "is now banned",
     "has started a neverending war",
-    "has upset #importantentity#"
+    "has upset #importantentity#",
+    "has started a very long discussion"
   ],
 
   "trendyname": [
