@@ -664,7 +664,8 @@
     "Get",
     "Charge",
     "Wear",
-    "Equip"
+    "Equip",
+    "Blame"
   ],
   "instructiveverb": [
     "Shelter",
@@ -707,7 +708,7 @@
     "for further instructions",
     "in fear",
     "for mercy",
-    "like a real #persontype#",
+    "like a #citizen_adjective# #persontype#",
     "as fast as you can",
     "without making a sound",
     "in place",
@@ -725,7 +726,15 @@
     "patriot",
     "soldier",
     "jerk",
-    "coward"
+    "coward",
+    "protein source"
+  ],
+  "citizen_adjective": [
+    "true",
+    "real",
+    "typical",
+    "good",
+    "obedient"
   ],
   "thing_to_not_do": [
     "attempt #attemptable_restricted_citizen_action#",
