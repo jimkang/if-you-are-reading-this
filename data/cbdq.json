@@ -17,10 +17,31 @@
   ],
   "condition": [
     "#singularsubject# has #action#",
+    "#singularsubject# has #action#",
+    "#singularsubject# has #action#",
+    "#singularsubject# has #action#",
+
     "the #process# has #completed#",
+    "the #process# has #completed#",
+    "the #process# has #completed#",
+    "the #process# has #completed#",
+
     "#personhas# #personal_action_on_object# #importantobject#",
+    "#personhas# #personal_action_on_object# #importantobject#",
+    "#personhas# #personal_action_on_object# #importantobject#",
+    "#personhas# #personal_action_on_object# #importantobject#",
+
     "#personhas# #personal_action_on_entity# #importantentity#",
-    "#concept# #concept_action#"
+    "#personhas# #personal_action_on_entity# #importantentity#",
+    "#personhas# #personal_action_on_entity# #importantentity#",
+    "#personhas# #personal_action_on_entity# #importantentity#",
+
+    "#concept# #concept_action#",
+    "#concept# #concept_action#",
+    "#concept# #concept_action#",
+    "#concept# #concept_action#",
+
+    "several people are typing"
   ],
   "personhas": [
     "you have",
