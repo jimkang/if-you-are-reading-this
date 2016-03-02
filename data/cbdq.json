@@ -109,7 +109,10 @@
     "Smidgeo",
     "smidgeo.com",
     "#trendyname#'s food allergy",
-    "Fimbulvetr"
+    "Fimbulvetr",
+    "Donald Trump",
+    "a new and updated Hitler",
+    "an animated statue of Stalin"
   ],
   "action": [
     "destroyed #object#",
@@ -140,7 +143,8 @@
     "been poisoned",
     "escaped orbit",
     "dealt 64000 DMG",
-    "added you to its professional network on LinkedIn"
+    "added you to its professional network on LinkedIn",
+    "#been_elected# #high_office#"
   ],
   "facility": [
     "the facility",
@@ -161,6 +165,17 @@
     "the staging servers",
     "the production cluster",
     "the #possession_safe_for_simple_pluralization# factory"
+  ],
+  "been_elected": [
+    "been elected",
+    "taken the post of",
+    "ascended to the office of"
+  ],
+  "high_office": [
+    "president",
+    "Supreme Leader",
+    "Dear Leader",
+    "Grand Chancellor"
   ],
   "process": [
     "missile launch",
