@@ -639,6 +639,7 @@
     "the eight-hour workday",
     "the social safety net",
     "math education",
+    "civics education",
     "art education",
     "public broadcasting",
     "Planned Parenthood",
@@ -689,9 +690,7 @@
     "a nearby ditch",
     "a bridge",
     "your basement",
-    "a 7-Eleven",
     "the bunker",
-    "the stairs",
     "your assigned shelter"
   ],
   "passiveinstructiveverb": [
@@ -956,20 +955,16 @@
   "concept": [
     "permadeath",
     "GTD time management",
-    "Twitter bots",
+    "having a Twitter bot",
     "DEEZ NUTS",
     "YOLO",
-    "the revelation that time is a flat circle",
     "OmniFocus",
-    "gravity as curves in space-time",
     "test-driven development",
     "cat ownership",
     "Weird Twitter",
-    "the concept of Original Sin",
+    "Original Sin",
     "microservice-based architecture",
-    "smoking's connection to lung cancer",
     "the comfort of fleece jackets",
-    "the idea that handwashing prevents the spread of disease",
     "vi",
     "emacs",
     "lifting heavy",
@@ -989,8 +984,7 @@
     "some new diet trend",
     "FOMO",
     "Smidgeo",
-    "Smidgeo Smarketing",
-    "a gravity wave"
+    "Smidgeo Smarketing"
   ],
   "concept_action": [
     "has taken the world by storm",
@@ -998,7 +992,8 @@
     "is now banned",
     "has started a neverending war",
     "has upset #importantentity#",
-    "has started a very long discussion"
+    "has started a very long discussion",
+    "is now mandatory"
   ],
 
   "trendyname": [
