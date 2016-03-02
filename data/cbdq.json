@@ -24,14 +24,10 @@
     "the #process# has #completed#",
     "the #process# has #completed#",
     "the #process# has #completed#",
-    "the #process# has #completed#",
 
     "#personhas# #personal_action_on_object# #importantobject#",
     "#personhas# #personal_action_on_object# #importantobject#",
-    "#personhas# #personal_action_on_object# #importantobject#",
-    "#personhas# #personal_action_on_object# #importantobject#",
 
-    "#personhas# #personal_action_on_entity# #importantentity#",
     "#personhas# #personal_action_on_entity# #importantentity#",
     "#personhas# #personal_action_on_entity# #importantentity#",
     "#personhas# #personal_action_on_entity# #importantentity#",
@@ -45,10 +41,13 @@
   ],
   "personhas": [
     "you have",
-    "someone has",
-    "a particular individual has",
+    "#individual# has",
     "#saboteur# has",
-    "your comrades have"
+    "#comrades_have#"
+  ],
+  "individual": [
+    "someone",
+    "a particular individual"
   ],
   "saboteur": [
     "a saboteur",
@@ -56,6 +55,14 @@
     "a rogue agent",
     "a trusted friend",
     "young #trendyname#"
+  ],
+  "comrades_have": [
+    "your comrades have",
+    "your company has",
+    "your dance team has",
+    "your party has",
+    "your improv group has",
+    "your Slack pals have"
   ],
   "singularsubject": [
     "the Large Hadron Collider",
@@ -96,10 +103,13 @@
     "a union of #robot#s",
     "a 800-ft. tall sentient #robot#",
     "a 200-ton sentient #robot#",
+    "a subversive #robot#",
+    "a charismatic #robot#",
     "the Black Omen",
     "Smidgeo",
     "smidgeo.com",
-    "#trendyname#'s food allergy"
+    "#trendyname#'s food allergy",
+    "Fimbulvetr"
   ],
   "action": [
     "destroyed #object#",
@@ -169,14 +179,18 @@
     "mating ceremony",
     "intervention",
     "incubation sequence",
-    "rite of puberty"
+    "rite of puberty",
+    "Fimbulvetr",
+    "bombogenesis",
+    "suction vortex"
   ],
   "robot": [
     "Roomba",
     "satellite",
     "drone",
     "nanobot",
-    "fleet of driverless cars"
+    "fleet of driverless cars",
+    "Twitter bot"
   ],
   "stormname": [
     "Hurricane #trendyname#",
@@ -208,7 +222,8 @@
     "shut down all communications",
     "initiated",
     "backfired",
-    "ended in tears"
+    "ended in tears",
+    "entered full bloom"
   ],
   "object": [
     "the earth",
@@ -310,7 +325,7 @@
     "the president",
     "your granfalloon",
     "the UN",
-    "the Abbott",
+    "the RZA",
     "the Gnomes of Zurich",
     "the Ghost of Christmas Future",
     "Zuul",
@@ -327,8 +342,8 @@
     "the Wu-Tang Clan",
     "the Blogosphere",
     "a 800-ft. tall sentient #robot#",
-    "Politburo",
-    "Club for Growth",
+    "the Politburo",
+    "the Club for Growth",
     "Weird Twitter",
     "haggard druids"
   ],
@@ -573,6 +588,7 @@
     "#bodyverb# your #bodypart#",
     "#possessionverb# your #possession#",
     "#instructiveverb# #spatialpreposition# #place#",
+    "#instructiveverb_conceptual# #concept#",
     "#passiveinstructiveverb# #passiveinstructionobject#",
     "Do not #thing_to_not_do#",
     "Report to #reportobject#"
@@ -672,11 +688,15 @@
     "Shelter",
     "Duck",
     "Hide",
-    "Obey",
     "Eat",
     "Lie",
     "Tread water",
     "Crouch"
+  ],
+  "instructiveverb_conceptual": [    
+    "Observe",
+    "Embrace",
+    "Obey"
   ],
   "spatialpreposition": [
     "in",
@@ -900,7 +920,9 @@
     "annoyance",
     "boredom",
     "nausea",
-    "diarrhea"
+    "diarrhea",
+    "proton decay",
+    "discharge"
   ],
   "ouch":[
     "It will #hurt#",
@@ -955,7 +977,6 @@
   "concept": [
     "permadeath",
     "GTD time management",
-    "having a Twitter bot",
     "DEEZ NUTS",
     "YOLO",
     "OmniFocus",
@@ -984,16 +1005,20 @@
     "some new diet trend",
     "FOMO",
     "Smidgeo",
-    "Smidgeo Smarketing"
+    "Smidgeo Smarketing",
+    "the excessive heat watch",
+    "the cold, cold weather"
   ],
   "concept_action": [
-    "has taken the world by storm",
+    "is huge this year",
     "has been invalidated",
     "is now banned",
-    "has started a neverending war",
+    "has started riots",
     "has upset #importantentity#",
     "has started a very long discussion",
-    "is now mandatory"
+    "is now mandatory",
+    "is in effect",
+    "has exploded"
   ],
 
   "trendyname": [
