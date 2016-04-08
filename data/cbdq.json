@@ -37,7 +37,8 @@
     "#concept# #concept_action#",
     "#concept# #concept_action#",
 
-    "several people are typing"
+    "several people are typing",
+    "#singularsubject_is# not #unmet_status#"
   ],
   "personhas": [
     "you have",
@@ -47,7 +48,13 @@
   ],
   "individual": [
     "someone",
-    "a particular individual"
+    "a particular individual",
+    "that guy"
+  ],
+  "singularsubject_is": [
+    "#singularsubject# is",
+    "#individual# is",
+    "you are"
   ],
   "saboteur": [
     "a saboteur",
@@ -112,7 +119,8 @@
     "Fimbulvetr",
     "Donald Trump",
     "a new and updated Hitler",
-    "an animated statue of Stalin"
+    "an animated statue of Stalin",
+    "#individual#"
   ],
   "action": [
     "destroyed #object#",
@@ -544,6 +552,18 @@
     "in complete darkness",
     "at sea",
     "in an undisclosed location"
+  ],
+  "unmet_status": [
+    "in the #toilplace#",
+    "in the sudoers file",
+    "very cool",
+    "living their best life",
+    "responding",
+    "on schedule",
+    "meeting expectations",
+    "our type",
+    "thriving",
+    "a good fit for our culture"
   ],
   "possession": [
     "oxygen mask",
@@ -987,7 +1007,8 @@
     "End transmission",
     "We're sorry",
     "See #officertitle# #trendyname# for further instruction",
-    "Remember: everything happens for a reason"
+    "Remember: everything happens for a reason",
+    "This incident will be reported"
   ],
   "concept": [
     "permadeath",
