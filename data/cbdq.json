@@ -878,7 +878,8 @@
     "There may be",
     "All signs point to",
     "Sources predict",
-    "You may experience"
+    "You may experience",
+    "You have been sentenced to"
   ],
   "damageextent": [
     "total",
@@ -924,7 +925,8 @@
     "brief",
     "mild",
     "pork",
-    "personal"
+    "personal",
+    "#10_bit_numbers# years of"
   ],
   "damage": [
     "damage",
@@ -965,7 +967,9 @@
     "nausea",
     "diarrhea",
     "proton decay",
-    "discharge"
+    "discharge",
+    "incarceration",
+    "prison"
   ],
   "ouch":[
     "It will #hurt#",
@@ -1074,6 +1078,21 @@
     "Chartreuse",
     "Pale",
     "Loud"
+  ],
+  "10_bit_numbers": [
+    "2",
+    "3",
+    "5",
+    "10",
+    "20",
+    "50",
+    "99",
+    "100",
+    "255",
+    "500",
+    "666",
+    "1000",
+    "1024"
   ],
 
   "trendyname": [
