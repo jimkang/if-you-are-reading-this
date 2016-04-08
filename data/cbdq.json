@@ -1,19 +1,25 @@
 {
   "origin": [
-    "If you are reading this, #condition#. #prediction#. #direction#.",
-    "If you are reading this, #condition#. #direction#.",
-    "If you are reading this, #condition#. #prediction#.",
-    "If you are reading this, #condition#. #outcome#.",
-    "If you are reading this, #condition#. #direction#. #closing#.",
-    "If you are reading this, #condition#. #direction#. #ouch#.",
-    "Attn: #condition#. #prediction#. #direction#.",
-    "Attn: #condition#. #prediction#. #outcome#.",
-    "Warning: #condition#. #prediction#. #direction#.",
-    "Warning: #condition#. #direction#. #outcome#.",
-    "Red alert: #condition#. #prediction#.",
-    "Sensors indicate #condition#. #direction#.",
-    "It appears #condition#. #direction#.",
-    "It appears #condition#. #direction#. #closing#."
+    "#preamble# #prediction#.",
+    "#preamble# #direction#.",
+    "#preamble# #outcome#.",
+    "#preamble# #prediction#.",
+    "#preamble# #prediction#. #direction#.",
+    "#preamble# #prediction#. #outcome#.",
+    "#preamble# #direction#. #closing#.",
+    "#preamble# #direction#. #ouch#.",
+    "#preamble# #direction#. #outcome#."
+  ],
+  "preamble": [
+    "#intro# #condition#."
+  ],
+  "intro": [
+    "If you are reading this,",
+    "Attn:",
+    "Warning:",
+    "#warningcolor# alert:",
+    "It appears",
+    "Sensors indicate"
   ],
   "condition": [
     "#singularsubject# has #action#",
@@ -152,7 +158,8 @@
     "escaped orbit",
     "dealt 64000 DMG",
     "added you to its professional network on LinkedIn",
-    "#been_elected# #high_office#"
+    "#been_elected# #high_office#",
+    "been isolated"
   ],
   "facility": [
     "the facility",
@@ -1055,6 +1062,17 @@
     "is now mandatory",
     "is in effect",
     "has exploded"
+  ],
+  "warningcolor": [
+    "Red",
+    "Orange",
+    "Yellow",
+    "Crimson",
+    "Black",
+    "White",
+    "Chartreuse",
+    "Pale",
+    "Loud"
   ],
 
   "trendyname": [
