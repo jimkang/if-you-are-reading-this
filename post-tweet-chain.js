@@ -9,6 +9,21 @@ var jsonfile = require('jsonfile');
 var grammarSpec = jsonfile.readFileSync(__dirname + '/data/cbdq.json');
 var processedGrammar = tracery.createGrammar(grammarSpec);
 
+var decorators = [
+  "🔔",
+  "🔊",
+  "📢",
+  "💣",
+  "📡",
+  "🛂",
+  "⚡",
+  "👏",
+  "🚨",
+  "⚠",
+  "❗",
+  "‼"
+];
+
 var statementParts = [
   'condition',
   'prediction',
@@ -25,8 +40,10 @@ if (process.argv.length > 2) {
 var twit = new Twit(config.twitter);
 
 var simpleResolvedText = processedGrammar.flatten('#origin#');
-
-if (simpleResolvedText.length <= 140) {
+if (simpleResolvedText.length < 100 && probable.roll(2) === 0) {
+  postTweets([simpleResolvedText, getRepeatText(), simpleResolvedText], wrapUp);
+}
+else if (simpleResolvedText.length <= 140) {
   postTweets([simpleResolvedText], wrapUp);
 }
 else {
@@ -47,20 +64,21 @@ function postTweetSeries() {
 
 function getStatements(done) {
   var parts = statementParts.map(getStatement);
-  parts[0] = formatCondition(parts[0]);
-  callNextTick(done, null, parts.map(addPeriod));
+  parts = parts.map(addPeriod);
+  if (probable.roll(2) === 0) {
+    var decorateIndex = probable.roll(parts.length);
+    parts[decorateIndex] = decorate(parts[decorateIndex]);
+  }
+  callNextTick(done, null, parts);
 }
 
 function getStatement(part) {
   return processedGrammar.flatten('#' + part + '#');
 }
 
-function formatCondition(condition) {
-  var preface = 'If you are reading this, ';
-  if (probable.roll(2) === 0) {
-    preface = 'Attn: ';
-  }
-  return preface + condition;
+function decorate(part) {
+  var decorator = probable.pickFromArray(decorators);
+  return decorator + ' ' + part + ' ' + decorator;
 }
 
 function addPeriod(s) {
@@ -134,4 +152,22 @@ function wrapUp(error, data) {
       console.log('data:', data);
     }
   }
+}
+
+function getRepeatText() {
+  var text = 'REPEAT';
+  var bookend = '';
+
+  if (probable.roll(2) === 0) {
+    var decorator = probable.pickFromArray(decorators);
+    for (var i = 0; i < probable.rollDie(7); ++i)  {
+      bookend += decorator;
+    }
+  }
+
+  if (bookend.length > 0) {
+    text = bookend + ' ' + text + ' ' + bookend;
+  }
+
+  return '\n' + text + '\n';
 }
