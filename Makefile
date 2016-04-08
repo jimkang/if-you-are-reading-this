@@ -1,34 +1,16 @@
 HOMEDIR = $(shell pwd)
+SSHCMD = ssh $(SMUSER)@smidgeo-headporters
+APPDIR = /var/apps/if-you-are-reading-this
 
 run:
 	node post-tweet-chain.js
 
-start:
-	node responder.js
+# start:
+# 	node responder.js
 
-create-docker-machine:
-	docker-machine create --driver virtualbox dev
-
-stop-docker-machine:
-	docker-machine stop dev
-
-start-docker-machine:
-	docker-machine start dev
-
-# connect-to-docker-machine:
-	# eval "$(docker-machine env dev)"
-
-build-docker-image:
-	docker build -t jkang/if-you-are-reading-this .
-
-push-docker-image: build-docker-image
-	docker push jkang/if-you-are-reading-this
-
-run-docker-image:
-	docker run -v $(HOMEDIR)/config:/usr/src/app/config \
-		-v $(HOMEDIR)/data:/usr/src/app/data \
-		jkang/if-you-are-reading-this \
-		make run
-
-pushall: push-docker-image
+pushall: sync
 	git push origin master
+
+sync:
+	rsync -a $(HOMEDIR) $(SMUSER)@smidgeo-headporters:/var/apps/ --exclude node_modules/
+	ssh $(SMUSER)@smidgeo-headporters "cd $(APPDIR) && npm install"
