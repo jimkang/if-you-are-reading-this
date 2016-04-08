@@ -19,7 +19,8 @@
     "Warning:",
     "#warningcolor# alert:",
     "It appears",
-    "Sensors indicate"
+    "Sensors indicate",
+    "Please be advised:"
   ],
   "condition": [
     "#singularsubject# has #action#",
