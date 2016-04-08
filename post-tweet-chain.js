@@ -24,12 +24,6 @@ var decorators = [
   "‼"
 ];
 
-var statementParts = [
-  'condition',
-  'prediction',
-  'direction'
-];
-
 var resolvedParts;
 
 var dryRun = false;
@@ -39,41 +33,34 @@ if (process.argv.length > 2) {
 
 var twit = new Twit(config.twitter);
 
-var simpleResolvedText = processedGrammar.flatten('#origin#');
-if (simpleResolvedText.length < 100 && probable.roll(2) === 0) {
-  postTweets([simpleResolvedText, getRepeatText(), simpleResolvedText], wrapUp);
+var statements = getStatements();
+var resolvedText = statements.join(' ');
+if (resolvedText.length < 100 && probable.roll(2) === 0) {
+  postTweets([resolvedText, getRepeatText(), resolvedText], wrapUp);
 }
-else if (simpleResolvedText.length <= 140) {
-  postTweets([simpleResolvedText], wrapUp);
+else if (resolvedText.length <= 140) {
+  postTweets([resolvedText], wrapUp);
 }
 else {
-  // Generate something probably long and post it in pieces.
-  postTweetSeries();
+  postTweets(statements, wrapUp);
 }
 
+function getStatements() {
+  var origin = probable.pickFromArray(grammarSpec.origin);
+  var grammarKeys = origin.split(' ');
+  // console.log('grammarKeys', grammarKeys);
+  var parts = grammarKeys.map(getStatement);
 
-function postTweetSeries() {
-  async.waterfall(
-    [
-      getStatements,
-      postTweets
-    ],
-    wrapUp
-  );
-}
-
-function getStatements(done) {
-  var parts = statementParts.map(getStatement);
-  parts = parts.map(addPeriod);
-  if (probable.roll(2) === 0) {
+  if (probable.roll(3) === 0) {
     var decorateIndex = probable.roll(parts.length);
     parts[decorateIndex] = decorate(parts[decorateIndex]);
   }
-  callNextTick(done, null, parts);
+
+  return parts.map(randomlyCap);
 }
 
 function getStatement(part) {
-  return processedGrammar.flatten('#' + part + '#');
+  return processedGrammar.flatten(part);
 }
 
 function decorate(part) {
@@ -83,6 +70,15 @@ function decorate(part) {
 
 function addPeriod(s) {
   return s + '.';
+}
+
+function randomlyCap(s) {
+  if (probable.roll(5) === 0) {
+    return s.toUpperCase();
+  }
+  else {
+    return s;
+  }
 }
 
 function postTweets(parts, done) {
