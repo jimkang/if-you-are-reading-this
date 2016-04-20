@@ -29,8 +29,9 @@
     "#singularsubject# has #action#",
     "#singularsubject# has #action#",
 
-    "the #process# has #completed#",
-    "the #process# has #completed#",
+    "#process# has #completed#",
+    "#process# has #completed#",
+    "#process# has #completed#",
     "the #process# has #completed#",
 
     "#personhas# #personal_action_on_object# #importantobject#",
@@ -181,7 +182,16 @@
     "CERN",
     "the staging servers",
     "the production cluster",
-    "the #possession_safe_for_simple_pluralization# factory"
+    "the #possession_safe_for_simple_pluralization# factory",
+    "the critical path"
+  ],
+  "parking_location": [
+    "street",
+    "#facility#"
+  ],
+  "oddeven": [
+    "odd-numbered",
+    "even-numbered"
   ],
   "been_elected": [
     "been elected",
@@ -214,7 +224,8 @@
     "rite of puberty",
     "Fimbulvetr",
     "bombogenesis",
-    "suction vortex"
+    "suction vortex",
+    "street cleaning"
   ],
   "robot": [
     "Roomba",
@@ -443,7 +454,8 @@
     "The elders",
     "Internet comment sections",
     "Juggalos",
-    "Druids"
+    "Druids",
+    "Cars parked on the #oddeven# side of the #parking_location#"
   ],
   "paction": [
     "#paction_custom#",
@@ -482,7 +494,8 @@
     "seek vengeance",
     "make final preparations",
     "fulfill the prophecy",
-    "discover #concept#"
+    "discover #concept#",
+    "be tagged and towed"
   ],
   "advance_word": [
     "advance to",
@@ -615,7 +628,6 @@
     "condom",
     "gas mask",
     "miniature American flag",
-    "cool sunglass",
     "dancing shoe",
     "hazmat suit",
     "ultrashock helmet",
