@@ -4,6 +4,7 @@
     "#preamble# #direction#.",
     "#preamble# #outcome#.",
     "#preamble# #prediction#.",
+    "#preamble# #prediction#. #prediction#.",
     "#preamble# #prediction#. #direction#.",
     "#preamble# #prediction#. #outcome#.",
     "#preamble# #direction#. #closing#.",
