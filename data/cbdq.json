@@ -44,7 +44,6 @@
     "#concept# #concept_action#",
     "#concept# #concept_action#",
     "#concept# #concept_action#",
-    "#concept# #concept_action#",
 
     "several people are typing",
     "#singularsubject_is# not #unmet_status#"
@@ -544,7 +543,9 @@
     "destroy #victimplace#",
     "occupy #victimplace#",
     "co-opt #victimplace#",
-    "drive up rent in #victimplace#"
+    "drive up rent in #victimplace#",
+    "curse #victimplace#",
+    "make #victimplace# unrecognizable"
   ],
   "destroy_institution": [
     "obliterate #victim_institution#",
@@ -614,7 +615,8 @@
     "uniform",
     "body spray",
     "vaporizer",
-    "gluten-free food"    
+    "gluten-free food",
+    "lottery ticket"
   ],
   "possession_safe_for_simple_pluralization": [
     "oxygen mask",
@@ -641,13 +643,29 @@
     "gluten-free food"
   ],
   "direction": [
+    "#composed_direction#",
+    "#composed_direction#",
+    "#composed_direction#",
+    "#composed_direction#",
+    "#composed_direction#",
+    "#composed_direction#",
+    "#composed_direction#",
+    "#composed_direction#",
+    "#static_direction#"
+  ],
+  "composed_direction": [
     "#bodyverb# your #bodypart#",
     "#possessionverb# your #possession#",
     "#instructiveverb# #spatialpreposition# #place#",
     "#instructiveverb_conceptual# #concept#",
     "#passiveinstructiveverb# #passiveinstructionobject#",
     "Do not #thing_to_not_do#",
-    "Report to #reportobject#"
+    "Report to #reportobject#",
+    "Line up #reason_to_line_up#"
+  ],
+  "static_direction": [
+    "Throw your hands in the air and wave them like you just don't care",
+    "Jump up and down"
   ],
   "bodyverb": [
     "Obey",
@@ -701,7 +719,8 @@
     "Antarctica",
     "the city",
     "local villages",
-    "all libraries"
+    "all libraries",
+    "MetaFilter"
   ],
   "victim_institution": [
     "affordable neighborhoods",
@@ -777,7 +796,8 @@
     "Die",
     "Sleep",
     "Run",
-    "Deactivate"
+    "Deactivate",
+    "Line up"
   ],
   "passiveinstructionobject": [
     "for further instructions",
@@ -878,6 +898,22 @@
     "to stop the vehicle",
     "to make phone calls",
     "contact"
+  ],
+  "reason_to_line_up": [
+    "to receive your #issued_possession_adjective# #possession#",
+    "for your #bodypart# tattoo",
+    "to get your #bodypart# sanitized",
+    "for #bodypart# delousing",
+    "for #bodypart# enhancement",
+    "for mandatory #bodypart# tanning",
+    "for a chance to enter #facility#",
+    "to enter the lottery for a visa to #victimplace#"
+  ],
+  "issued_possession_adjective": [
+    "state-issued",
+    "mandatory",
+    "free",
+    "refurbished"
   ],
   "outcome": [
     "#expect# #damageextent# #damage#"
