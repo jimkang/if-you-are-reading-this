@@ -1,16 +1,15 @@
 HOMEDIR = $(shell pwd)
-SSHCMD = ssh $(SMUSER)@smidgeo-headporters
-APPDIR = /var/apps/if-you-are-reading-this
+SMUSER = noderunner
+SERVER = sprigot-droplet
+SSHCMD = ssh $(SMUSER)@$(SERVER)
+APPDIR = /var/www/if-you-are-reading-this
 
 run:
 	node post-tweet-chain.js
-
-# start:
-# 	node responder.js
 
 pushall: sync
 	git push origin master
 
 sync:
-	rsync -a $(HOMEDIR) $(SMUSER)@smidgeo-headporters:/var/apps/ --exclude node_modules/
-	ssh $(SMUSER)@smidgeo-headporters "cd $(APPDIR) && npm install"
+	rsync -a $(HOMEDIR) $(SMUSER)@$(SERVER):/var/www/ --exclude node_modules/
+	ssh $(SMUSER)@$(SERVER) "cd $(APPDIR) && npm install"
