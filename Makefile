@@ -14,3 +14,6 @@ sync:
 
 run:
 	node post-tweet-chain.js
+
+prettier:
+	prettier --single-quote --write "**/*.js"

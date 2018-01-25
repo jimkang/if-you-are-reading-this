@@ -1,7 +1,8 @@
+/* global process, __dirname */
+
 var config = require('./config/config');
 var callNextTick = require('call-next-tick');
 var Twit = require('twit');
-var async = require('async');
 var probable = require('probable');
 var tracery = require('tracery-grammar');
 var jsonfile = require('jsonfile');
@@ -10,25 +11,23 @@ var grammarSpec = jsonfile.readFileSync(__dirname + '/data/cbdq.json');
 var processedGrammar = tracery.createGrammar(grammarSpec);
 
 var decorators = [
-  "🔔",
-  "🔊",
-  "📢",
-  "💣",
-  "📡",
-  "🛂",
-  "⚡",
-  "👏",
-  "🚨",
-  "⚠",
-  "❗",
-  "‼"
+  '🔔',
+  '🔊',
+  '📢',
+  '💣',
+  '📡',
+  '🛂',
+  '⚡',
+  '👏',
+  '🚨',
+  '⚠',
+  '❗',
+  '‼'
 ];
-
-var resolvedParts;
 
 var dryRun = false;
 if (process.argv.length > 2) {
-  dryRun = (process.argv[2].toLowerCase() == '--dry');
+  dryRun = process.argv[2].toLowerCase() == '--dry';
 }
 
 var twit = new Twit(config.twitter);
@@ -37,11 +36,9 @@ var statements = getStatements();
 var resolvedText = statements.join(' ');
 if (resolvedText.length < 100 && probable.roll(2) === 0) {
   postTweets([resolvedText, getRepeatText(), resolvedText], wrapUp);
-}
-else if (resolvedText.length <= 140) {
+} else if (resolvedText.length <= 140) {
   postTweets([resolvedText], wrapUp);
-}
-else {
+} else {
   postTweets(statements, wrapUp);
 }
 
@@ -68,15 +65,10 @@ function decorate(part) {
   return decorator + ' ' + part + ' ' + decorator;
 }
 
-function addPeriod(s) {
-  return s + '.';
-}
-
 function randomlyCap(s) {
   if (probable.roll(5) === 0) {
     return s.toUpperCase();
-  }
-  else {
+  } else {
     return s;
   }
 }
@@ -86,8 +78,7 @@ function postTweets(parts, done) {
     var combinedStatement = parts.join(' ');
     console.log('Would have tweeted:', combinedStatement);
     callNextTick(done);
-  }
-  else {
+  } else {
     postNextTweet(null, done);
   }
 
@@ -95,8 +86,7 @@ function postTweets(parts, done) {
     var text = '';
     if (parts.length < 1) {
       callNextTick(done);
-    }
-    else if (lastTweet) {
+    } else if (lastTweet) {
       text += '> ';
     }
 
@@ -107,8 +97,7 @@ function postTweets(parts, done) {
         }
         text += parts[0];
         parts.shift();
-      }
-      else {
+      } else {
         break;
       }
     }
@@ -132,8 +121,7 @@ function postTweets(parts, done) {
     function callPostNextTweet(error, lastTweet) {
       if (error) {
         callNextTick(done, error);
-      }
-      else {
+      } else {
         postNextTweet(lastTweet, done);
       }
     }
@@ -156,7 +144,7 @@ function getRepeatText() {
 
   if (probable.roll(2) === 0) {
     var decorator = probable.pickFromArray(decorators);
-    for (var i = 0; i < probable.rollDie(7); ++i)  {
+    for (var i = 0; i < probable.rollDie(7); ++i) {
       bookend += decorator;
     }
   }

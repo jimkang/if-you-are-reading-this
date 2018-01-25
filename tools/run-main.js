@@ -1,3 +1,5 @@
+/* global process, __dirname */
+
 var tracery = require('tracery-grammar');
 var jsonfile = require('jsonfile');
 
